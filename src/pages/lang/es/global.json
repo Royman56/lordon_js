@@ -1,0 +1,52 @@
+{
+    "header-one": {
+        "menu1": "Inicio",
+        "menu2": "Catálogo",
+        "menu3": "Empresa",
+        "menu4": "Contacto"
+    },
+
+    "view-category": {
+        "category1": "variedad y calidad",
+        "category2": "Categorias",
+        "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "category4": "Ver Catálogo"
+    },
+
+    "parallax": {
+        "parallax1": "tendencias",
+        "parallax2": "ofertas"
+    },
+
+    "clients": {
+        "clients1": "nuestros",
+        "clients2": "clientes"
+    },
+
+    "business": {
+        "business1": "Nosotros",
+        "business2": "¿QUIÉNES SOMOS?",
+        "business3": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business4": "¿QUÉ SOMOS?",
+        "business5": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business6": "Nuestra",
+        "business7": "MISIÓN",
+        "business8": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business9": "VISIÓN",
+        "business10": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business11": "Comentarios",
+        "business12": "Casos de éxito"
+    },
+
+    "contact": {
+        "contact1": "Información",
+        "contact2": "CONTÁCTANOS",
+        "contact3": "Nuestras",
+        "contact4": "REDES SOCIALES"
+    },
+
+    "footer": {
+        "footer1": "Contacto",
+        "footer2": "dirección"
+    }
+}
