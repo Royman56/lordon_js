@@ -51,7 +51,7 @@ const SearchProduct = () => {
               <Col xs={12} md={12}>
               
               <div className="collection-banner">
-                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid" alt={item.name_product} />
+                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid  img-round" alt={item.name_product} />
                 </div>
                 <div className="card-body">
                 <div style={{ color: '#000' }} >

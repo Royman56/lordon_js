@@ -435,7 +435,7 @@ del {
 }
 
 .sticky {
-  &.fixed {
+
     position: fixed;
     width: 100%;
     top: 0;
@@ -464,7 +464,7 @@ del {
       top: 13%;
       right: -11px;
     }
-  }
+  
 }
 
 @-webkit-keyframes smoothScroll {

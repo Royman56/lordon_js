@@ -11,7 +11,7 @@ import ReactGa from 'react-ga';
 const ViewProduct = (props) => {
   const [loading, setLoading] = useState(true);
   const [product, setProduct] = useState([]);
-  const [category, setCategory] = useState([]);
+  const [subcategory, setSubCategory] = useState([]);
   const productCount = product.length;
   const history = useHistory();
   
@@ -30,7 +30,7 @@ const ViewProduct = (props) => {
 
         if (res.data.status === 200) {
           setProduct(res.data.product_data.product);
-          setCategory(res.data.product_data.category);
+          setSubCategory(res.data.product_data.subcategory);
           setLoading(false);
 
         } else if (res.data.status === 400) {
@@ -68,14 +68,14 @@ const ViewProduct = (props) => {
       showProductList =
         product.map((item, idx) => {
           return (
-            <Link to={`/collections/${item.category.slug}/${item.id}`}>
+            <Link to={`/collections/${item.subcategory.slug}/${item.id}`}>
            
              {/* <div className="col-md-4" key={idx}>*/}
-              <Row key={idx}>
+              <Row key={idx} className="button-tp button-mrg">
               <Col xs={12} md={12}>
               
               <div className="collection-banner">
-                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid" alt={item.name_product} />
+                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
                 </div>
                 <div className="card-body">
                 <div style={{ color: '#000' }}  onClick={ClickHandler}>
@@ -103,8 +103,8 @@ const ViewProduct = (props) => {
       showProductList =
       <Container className="col-md-4">
           <Row>
-      <h4 className="button-center">Ningún Producto Para Mostrar En {category.name}</h4>
-          <img src={Sad} alt="sad"/>
+      <h4 className="button-center">Ningún Producto Para Mostrar En {subcategory.name}</h4>
+          <img className="button-center" src={Sad} alt="sad"/>
           </Row>
           </Container>   
           
@@ -112,7 +112,7 @@ const ViewProduct = (props) => {
     }
   }
   return (
-    <CommonLayout parent="collections" title={category.name}>
+    <CommonLayout parent="collections" title={subcategory.name}>
       <Fragment >
         {/*collection banner*/}
      

@@ -23,23 +23,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                 <Container>
                     <Row>
                         <Col md="12">
-                            <div className="description-business">
-                                <div className="left-content-business">
-                                    <div className="left-text-container">
-                                    <h4 className="text-red">{t("business.business1")}</h4>
-                                        <h1>{t("business.business2")}</h1>
-                                        <p className="white-text">
-                                        {t("business.business3")}
-                                        </p>
+                            <div className="text-center">
+                                <h4 className="text-red ">{t("business.business1")}</h4>
+                                <h1>{t("business.business2")}</h1>
 
-                                    </div>
-                                </div>
-
-
-                                <div className="right-content">
-                                    <img src={quienessomos} alt="" className="phone" />
-                                </div>
                             </div>
+
 
                         </Col>
                     </Row>
@@ -54,7 +43,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                     <div className="left-text-container">
                                         <h1>{t("business.business4")}</h1>
                                         <p className="white-text">
-                                        {t("business.business5")}
+                                            {t("business.business5")}
                                         </p>
 
                                     </div>
@@ -75,10 +64,10 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                    <h4 className="text-red">{t("business.business6")}</h4>
+                                        <h4 className="text-red">{t("business.business6")}</h4>
                                         <h1>{t("business.business7")}</h1>
                                         <p className="white-text">
-                                        {t("business.business8")}
+                                            {t("business.business8")}
                                         </p>
 
                                     </div>
@@ -101,7 +90,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                     <div className="left-text-container">
                                         <h1>{t("business.business9")}</h1>
                                         <p className="white-text">
-                                        {t("business.business10")}
+                                            {t("business.business10")}
                                         </p>
 
                                     </div>
@@ -116,28 +105,33 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                         </Col>
                     </Row>
                 </Container>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
 
                 <Container>
-        <Row>
-          <Col md="12">
-          <h4 className="text-red text-center">{t("business.business11")}</h4>
-          <h2 className="title-borderless">{t("business.business12")}</h2>
-            <Slider {...Slider2} className="slide-2 no-arrow">
-              {imgData.map((imgSrc, i) => {
-                return (
-                  <div key={i}>
-                    <div className="logo-block">
-                      <a href={null}>
-                        <Media src={imgSrc} alt="" />
-                      </a>
-                    </div>
-                  </div>
-                );
-              })}
-            </Slider>
-          </Col>
-        </Row>
-      </Container>
+                    <Row>
+                        <Col md="12">
+                            <h4 className="text-red text-center">{t("business.business11")}</h4>
+                            <h2 className="title-borderless">{t("business.business12")}</h2>
+                            <Slider {...Slider2} className="slide-2 no-arrow">
+                                {imgData.map((imgSrc, i) => {
+                                    return (
+                                        <div key={i}>
+                                            <div className="logo-block">
+                                                <a href={null}>
+                                                    <Media src={imgSrc} alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </Slider>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
         </Fragment>
 

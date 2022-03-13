@@ -130,11 +130,16 @@ const MasterFooter = ({
                         <ul className="contact-list">
 
                           <li>
-                            <i className="fa fa-phone"></i>Call Us: 123-456-7898
+                            <i className="fa fa-phone"></i>{t("footer.phone")} :{" "}
+                            <i></i>5525982376
                           </li>
                           <li>
-                            <i className="fa fa-envelope-o"></i>Email :{" "}
-                            <a href="#">Support@Fiot.com</a>
+                            <i className="fa fa-envelope-o"></i>{t("footer.email")} :{" "}
+                            <a href="#">info@lordon.com.mx</a>
+                          </li>
+                          <li>
+                            <i className="fa fa-plus"></i>{t("footer.hour")} :{" "}
+                            <i></i>{t("footer.hour-text")}
                           </li>
 
                         </ul>
@@ -167,8 +172,8 @@ const MasterFooter = ({
                     <div className="footer-contant">
                       <ul className="contact-list">
                         <li>
-                          <i className="fa fa-map-marker"></i>Lordon Demo
-                          Store, Demo store 345-659
+                          <i className="fa fa-map-marker"></i>Calle 9 No 118, Col. Ignacio Zaragoza, Venustiano Carranza, CP.15000, Ciudad de
+                          México, México
                         </li>
                       </ul>
                     </div>

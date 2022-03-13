@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import AddProduct from '../common/products/AddProduct';
-import HeaderTwo from '../../../../components/headers/header-two';
-import FooterTwo from '../../../../components/footers/footer-two';
-import Link from "next/link";
 import {
-  Container,
   Row,
   Col,
   Media,
@@ -22,9 +18,9 @@ import {
   Button,
 } from "reactstrap";
 import seventeen from "../../../../assets/images/logos/17.png";
-import AddCategory from "./category/AddCategory";
 import ProductList from "./products/ProductList";
 import CategoryList from "./category/CategoryList";
+import SubCategoryList from "./sub-category/SubCategoryList";
 import DashboardDetails from "./dashboard/DashboardDetails";
 import UserProfile from "./profile/UserProfile";
 import SettingProfile from "./setting/SettingProfile";
@@ -116,6 +112,14 @@ if (res.data.status === 200) {
                 </NavItem>
                 <NavItem className="nav nav-tabs" id="myTab" role="tablist">
                   <NavLink
+                    className={activeTab === "9" ? "active" : ""}
+                    onClick={() => setActiveTab("9")}
+                  >
+                    Sub Categorias
+                  </NavLink>
+                </NavItem>
+                <NavItem className="nav nav-tabs" id="myTab" role="tablist">
+                  <NavLink
                     className={activeTab === "6" ? "active" : ""}
                     onClick={toggle}
                   >
@@ -169,6 +173,23 @@ if (res.data.status === 200) {
                           </a>
                         </div>
                         <CategoryList />
+                      </CardBody>
+                    </Card>
+                  </Col>
+                </Row>
+              </TabPane>
+              <TabPane tabId="9">
+                <Row>
+                  <Col sm="12">
+                    <Card className="dashboard-table mt-0">
+                      <CardBody>
+                        <div className="top-sec">
+                          <h3>Sub Categorias De La Tienda</h3>
+                          <a href="/addsubcategory/" className="btn btn-sm btn-solid">
+                            Agregar Sub Categoria
+                          </a>
+                        </div>
+                        <SubCategoryList />
                       </CardBody>
                     </Card>
                   </Col>

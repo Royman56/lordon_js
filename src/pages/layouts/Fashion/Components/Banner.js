@@ -18,6 +18,24 @@ const Data = [
     desc: "la mejor moda para hombre y mujer",*/
     link: "product-details/right_sidebar",
   },
+  {
+    img: "home3",
+    /*title: "bienvenidos",
+    desc: "la mejor moda para hombre y mujer",*/
+    link: "product-details/right_sidebar",
+  },
+  {
+    img: "home4",
+    /*title: "bienvenidos",
+    desc: "la mejor moda para hombre y mujer",*/
+    link: "product-details/right_sidebar",
+  },
+  {
+    img: "home5",
+    /*title: "bienvenidos",
+    desc: "la mejor moda para hombre y mujer",*/
+    link: "product-details/right_sidebar",
+  },
 ];
 
 const Banner = () => {

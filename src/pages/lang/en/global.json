@@ -1,9 +1,9 @@
 {
     "header-one": {
-        "menu1": "Beginning",
-        "menu2": "Catalog",
-        "menu3": "Bussines",
-        "menu4": "Contact"
+        "menu1": "Home",
+        "menu2": "Our Products",
+        "menu3": "Our Company",
+        "menu4": "Contact us"
     },
 
     "view-category": {
@@ -26,14 +26,13 @@
     "business": {
         "business1": "Us",
         "business2": "ABOUT US?",
-        "business3": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
-        "business4": "WHAT ARE WE?",
-        "business5": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business4": "OUR CORE BUSINESS",
+        "business5": "Based on specific needs of our clients our job is to identify suppliers globally. Once the product is identified our goal is to stablish and end to end supply chain that delivers the product to our clients.",
         "business6": "Our",
         "business7": "MISSION",
-        "business8": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
-        "business9": "VIEW",
-        "business10": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e x commodi corporis quos odio libero temporibus, eveniet nisi.",
+        "business8": " To offer our commercial and logistics infrastructure to guarantee a constant and efficient supply of quality products throughout diverse distribution channels with a strategic process, leading edge technology and around the clock customer service.",
+        "business9": "VISION",
+        "business10": "Establish ourselves as leaders in the delivery of household and mass merchandised consumer products, meeting all customer needs thanks to the quality of our products, customer service, marketing expertise, efficiency and profitability, maintaining and growing our commercial and strategic alliances with retailers in the Mexican and International Markets. We will distinguish ourselves through our commitment to create loyalty and excellent service with our clients.",
         "business11": "Comments",
         "business12": "Success stories"
     },
@@ -47,6 +46,10 @@
 
     "footer": {
         "footer1": "contact",
-        "footer2": "address"
+        "footer2": "address",
+        "email": "Email",
+        "phone": "Telephone",
+        "hour": "Hours of operation",
+        "hour-text": "9:00 a 18:00hrs (Mon - Friday)"
     }
 }

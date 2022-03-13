@@ -31,7 +31,7 @@ const AddProduct = () => {
   }
   const history = useHistory();
 
-    const [categorylist, setCategorylist] = useState([]);
+    const [subcategorylist, setSubCategorylist] = useState([]);
     const [productInput, setProduct] = useState({
         name_product: '',
         id_category: '',
@@ -93,10 +93,10 @@ const AddProduct = () => {
 
 
     useEffect(() => {
-        axios.get(`/api/all-category`).then(res => {
+        axios.get(`/api/all-subcategory`).then(res => {
             if(res.status === 200)
             {
-                setCategorylist(res.data.category);
+                setSubCategorylist(res.data.subcategory);
             }
         });
         
@@ -246,9 +246,9 @@ const AddProduct = () => {
                                                         id="exampleFormControlSelect1"
                                                         onChange={handleInput}
                                                         value={productInput.id_category}>
-                                                        <option key={1} value="true">Select Category</option>
+                                                        <option key={1} value="true">Selecciona Categoria</option>
                                                         {
-                                                            categorylist.map( (item) => {
+                                                            subcategorylist.map( (item) => {
                                                                 return(
                                                                     <option key={item.id} value={item.id}>{item.name}</option>
                                                                 )
