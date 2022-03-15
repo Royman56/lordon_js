@@ -435,8 +435,7 @@ del {
 }
 
 .sticky {
-
-    position: fixed;
+    position: sticky; //fixed antes
     width: 100%;
     top: 0;
     z-index: 999;
@@ -455,16 +454,12 @@ del {
         top: 66px;
       }
     }
-
-    .top-header {
-      display: none;
-    }
+  
 
     .cart-qty-cls {
       top: 13%;
       right: -11px;
-    }
-  
+    } 
 }
 
 @-webkit-keyframes smoothScroll {
