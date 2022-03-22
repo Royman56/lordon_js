@@ -5,64 +5,12 @@ import Slider from "react-slick";
 import { Slider2 } from "../../../../../services/script";
 import axios from 'axios';
 import ReactGa from 'react-ga';
-
-/*const Data = [
-  {
-    img: banner1,
-    about: "hombre",
-    offer: "10% off",
-    link: "/product-details/right_sidebar",
-    class: "p-right text-center",
-  },
-  {
-    img: banner2,
-    about: "mujer",
-    offer: "10% off",
-    link: "product-details/right_sidebar",
-    class: "p-right text-center",
-  },
-];
-
-const MasterCollectionBanner = ({ img, about, offer, link, classes }) => {
-  return (
-    <Col md="6">
-      <Link href={link}>
-        <a>
-          <div className={`collection-banner ${classes}`}>
-            <Media src={img} className="img-fluid" alt="" />
-            <div className="contain-banner">
-              <div>
-                <h4>{offer}</h4>
-                <h2>{about}</h2>
-              </div>
-            </div>
-          </div>
-        </a>
-      </Link>
-    </Col>
-  );
-}
-
-<Container>
-          <Row className="partition2">
-            {Data.map((data, i) => {
-              return (
-                <MasterCollectionBanner
-                  key={i}
-                  img={data.img}
-                  about={data.about}
-                  link={data.link}
-                  offer={data.offer}
-                  classes={data.class}
-                />
-              );
-            })}
-          </Row>
-        </Container>;*/
+import { useTranslation } from "react-i18next";
 
 const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
   const [loading, setLoading] = useState(true);
   const [category, setCategory] = useState([]);
+  const [t, i18n] = useTranslation("global");
   const ClickHandler = () => {
     ReactGa.event({
       category: 'Categoria',
@@ -123,12 +71,11 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
   return (
     <Fragment>
       <section className={sectionClass}>
-        <Container>
+      <Container>
           <Row>
             <Col md="12">
               <div className={title}>
-                <h4 className="text-center text-red">variedad y calidad</h4>
-                <h2 className="text-center">CATEGORIAS</h2>
+                <h2 className="text-center">{t("view-category.category5")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -138,14 +85,31 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
                 )}
               </div>
               <Row>
-                <Col lg="6" className="m-auto">
+                <Col lg="12" className="m-auto">
                   <div className="product-para">
-                    <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                      Lorem Ipsum has been the industry's 
-                      standard dummy text ever since the 1500s,</p>
+                    <p>{t("view-category.category6")}</p>
+                    <p>{t("view-category.category7")}</p>
                   </div>
                 </Col>
               </Row>
+            </Col>
+          </Row>
+
+        </Container>
+        <Container>
+          <Row>
+            <Col md="12">
+              <div className={title}>
+                <h4 className="text-center text-red">{t("view-category.category1")}</h4>
+                <h2 className="text-center">{t("view-category.category2")}</h2>
+                {hrClass ? (
+                  <hr role="tournament6"></hr>
+                ) : (
+                  <div className="line">
+                    <span></span>
+                  </div>
+                )}
+              </div>
               <Slider {...Slider2} className="slide-2 slick-arrow text-center">
                 {showCategoryList}
               </Slider>
@@ -161,7 +125,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
                   <Link to='/viewfullcategory/'>
           <Button className="btn btn-solid button-center" type="submit"
           >
-            Ver Catálogo
+            {t("view-category.category4")}
           </Button>
           </Link>
                   </div>

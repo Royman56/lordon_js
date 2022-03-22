@@ -24,9 +24,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
               <Row>
                 <Col lg="6" className="m-auto">
                   <div className="product-para">
-                    <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                      Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,</p>
+                    <p className="text-center">{t("contact.contactd")}</p>
                   </div>
                 </Col>
               </Row>
@@ -103,14 +101,6 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
                         aria-hidden="true"
                       ></i>
                     </a>
-                  </Button>
-                
-                  <Button className="btn btn-contact button-center" type="submit"
-                  >
-                    <a href="https://twitter.com" target="_blank">
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    
                   </Button>
 
                   <Button className="btn btn-contact button-center" type="submit"

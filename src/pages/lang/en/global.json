@@ -10,7 +10,10 @@
         "category1": "variety and quality",
         "category2": "categories",
         "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-        "category4": "See Catalog"
+        "category4": "See Catalog",
+        "category5": "We sell and distribute domestic and international products",
+        "category6": "Our organization specializes in the sale and distribution of domestic and international products in the retail markets. Our products are practical and accessible with high quality standards.",
+        "category7": "At LORDON, we are always innovating and challenging ourselves to disrupt the status quo based on a strategic global vision behind a consumer centric culture."
     },
 
     "parallax": {
@@ -41,12 +44,14 @@
         "contact1": "Information",
         "contact2": "CONTACT US",
         "contact3": "our",
-        "contact4": "SOCIAL NETWORKS"
+        "contact4": "SOCIAL NETWORKS",
+        "contactd": "If you would like to have more information please contact us by phone, email or chat."
     },
 
     "footer": {
         "footer1": "contact",
         "footer2": "address",
+        "footer3": "privacy notice",
         "email": "Email",
         "phone": "Telephone",
         "hour": "Hours of operation",

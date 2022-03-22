@@ -25,7 +25,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                         <Col md="12">
                             <div className="text-center">
                                 <h4 className="text-red ">{t("business.business1")}</h4>
-                                <h1>{t("business.business2")}</h1>
+                                <h1 className="text-red">{t("business.business2")}</h1>
 
                             </div>
 
@@ -41,8 +41,8 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                        <h1>{t("business.business4")}</h1>
-                                        <p className="white-text">
+                                        <h1 className="text-red ">{t("business.business4")}</h1>
+                                        <p className="text-blue">
                                             {t("business.business5")}
                                         </p>
 
@@ -65,8 +65,8 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                 <div className="left-content-business">
                                     <div className="left-text-container">
                                         <h4 className="text-red">{t("business.business6")}</h4>
-                                        <h1>{t("business.business7")}</h1>
-                                        <p className="white-text">
+                                        <h1 className="text-red">{t("business.business7")}</h1>
+                                        <p className="text-blue">
                                             {t("business.business8")}
                                         </p>
 
@@ -88,8 +88,8 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                        <h1>{t("business.business9")}</h1>
-                                        <p className="white-text">
+                                        <h1 className="text-red">{t("business.business9")}</h1>
+                                        <p className="text-blue">
                                             {t("business.business10")}
                                         </p>
 
@@ -115,7 +115,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                     <Row>
                         <Col md="12">
                             <h4 className="text-red text-center">{t("business.business11")}</h4>
-                            <h2 className="title-borderless">{t("business.business12")}</h2>
+                            <h2 className="title-borderless text-red">{t("business.business12")}</h2>
                             <Slider {...Slider2} className="slide-2 no-arrow">
                                 {imgData.map((imgSrc, i) => {
                                     return (

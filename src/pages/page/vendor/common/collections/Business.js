@@ -34,10 +34,6 @@ const Business = () => {
 
       />
 
-      <div className="section-b-space">
-        <LogoBlock />
-      </div>
-
       <MasterFooter
         footerClass={`footer-light`}
         footerLayOut={"light-layout upper-footer"}

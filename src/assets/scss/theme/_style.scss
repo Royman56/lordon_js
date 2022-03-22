@@ -97,7 +97,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 26px;
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -129,7 +129,7 @@ li {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   color: $grey;
   line-height: 1;
 }
@@ -734,6 +734,11 @@ button {
 
 .text-red {
   color: #cb2c30;
+}
+
+.text-blue {
+  color: #003594;
+  font-size: 1.5rem;
 }
 
 .btn-solid {
@@ -3381,7 +3386,7 @@ padding-top: 3rem;
     padding-bottom: 25px;
     line-height: 24px;
     letter-spacing: 0.05em;
-    margin-top: -7px;
+    font-size: 1.3rem;
   }
 }
 
@@ -8640,7 +8645,7 @@ footer {
   }
 
   i {
-    font-size: 100px;
+    font-size: 50px;
     color: $white;
 
     &:hover {
@@ -8681,7 +8686,6 @@ footer {
       position: relative;
       display: inherit;
       padding-top: 13px;
-      text-transform: capitalize;
       font-size: 14px;
       color: $grey;
 

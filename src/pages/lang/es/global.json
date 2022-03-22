@@ -10,7 +10,10 @@
         "category1": "variedad y calidad",
         "category2": "Categorias",
         "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-        "category4": "Ver Catálogo"
+        "category4": "Ver Catálogo",
+        "category5": "Comercializamos y Distribuimos productos nacionales e internacionales",
+        "category6": "Somos una organización empresarial especializada en la distribución y comercialización de productos nacionales e internacionales en el mercado del retail. Nuestros productos son prácticos y accesibles con énfasis en su calidad al mejor precio.",
+        "category7": "En LORDON siempre estamos con una disposición a innovar, cuestionar y desafiar, tomando decisiones estratégicas inspiradas en una visi n global, teniendo como foco principal las necesidades del usuario final."
     },
 
     "parallax": {
@@ -41,12 +44,14 @@
         "contact1": "Información",
         "contact2": "CONTÁCTANOS",
         "contact3": "Nuestras",
-        "contact4": "REDES SOCIALES"
+        "contact4": "REDES SOCIALES",
+        "contactd": "Para cualquier duda o mayor información favor de contactarnos por teléfono, correo o chat."
     },
 
     "footer": {
         "footer1": "Contacto",
         "footer2": "Dirección",
+        "footer3": "Aviso de privacidad",
         "email": "Correo",
         "phone": "Teléfono",
         "hour": "Horario",

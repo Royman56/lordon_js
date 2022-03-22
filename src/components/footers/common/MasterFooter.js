@@ -177,6 +177,35 @@ const MasterFooter = ({
                         </li>
                       </ul>
                     </div>
+                    <br></br>
+                    <br></br>
+                <div className="sub-title">
+                  <div
+                    className={`footer-title ${isOpen && collapse == 4 ? "active" : ""
+                      } `}
+                  >
+                    <h4
+                      onClick={() => {
+                        if (width) {
+                          setIsOpen(!isOpen);
+                          setCollapse(4);
+                        } else setIsOpen(true);
+                      }}
+                    >
+                      {t("footer.footer3")}
+                      <span className="according-menu"></span>
+                    </h4>
+                  </div>
+                    <div className="footer-contant">
+                      <ul className="contact-list">
+                      <li>
+                            <i className="fa fa-random"></i>
+                            <a href="https://www.sic.gov.co/ley-de-proteccion-de-datos">https://avisodeprivacidad</a>
+                          </li>
+                      </ul>
+                    </div>
+                </div>
+    
                   </Collapse>
                 </div>
               </Col>
