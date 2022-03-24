@@ -12,7 +12,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
             <Col md="12">
               <div className={title}>
               <h4 className="text-red text-center">{t("contact.contact1")}</h4>
-                <h2 className="text-center">{t("contact.contact2")}</h2>
+                <h2 className="text-center text-red">{t("contact.contact2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -24,7 +24,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
               <Row>
                 <Col lg="6" className="m-auto">
                   <div className="product-para">
-                    <p className="text-center">{t("contact.contactd")}</p>
+                    <p className="text-center text-blue">{t("contact.contactd")}</p>
                   </div>
                 </Col>
               </Row>
@@ -70,7 +70,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
             <Col md="12">
               <div className={title}>
               <h4 className="text-red text-center">{t("contact.contact3")}</h4>
-                <h2 className="text-center">{t("contact.contact4")}</h2>
+                <h2 className="text-center text-red">{t("contact.contact4")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (

@@ -75,7 +75,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-                <h2 className="text-center">{t("view-category.category5")}</h2>
+                <h2 className="text-center text-red">{t("view-category.category5")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -87,8 +87,8 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
               <Row>
                 <Col lg="12" className="m-auto">
                   <div className="product-para">
-                    <p>{t("view-category.category6")}</p>
-                    <p>{t("view-category.category7")}</p>
+                    <p  className="text-blue">{t("view-category.category6")}</p>
+                    <p className="text-blue">{t("view-category.category7")}</p>
                   </div>
                 </Col>
               </Row>
@@ -101,7 +101,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
             <Col md="12">
               <div className={title}>
                 <h4 className="text-center text-red">{t("view-category.category1")}</h4>
-                <h2 className="text-center">{t("view-category.category2")}</h2>
+                <h2 className="text-center text-red">{t("view-category.category2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
