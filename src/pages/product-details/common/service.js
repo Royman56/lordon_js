@@ -32,19 +32,8 @@ const Data = [
 
 const Service = () => {
   return (
-    <div className="collection-filter-block">
-      <div className="product-service">
-        {Data.map((data, index) => {
-          return (
-            <MasterServiceContent
-              key={index}
-              link={data.link}
-              title={data.title}
-              service={data.service}
-              lastChild={data.lastChild}
-            />
-          );
-        })}
+    <div>
+      <div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const TopBarDark = ({ topClass, fluid }) => {
     <div className={topClass}>
       <Container fluid={fluid}>
         <Row>
-          <Col lg="6">
+          <Col className='text-left'>
             <div>
             <ul className="header-dropdown">
               <li className="mobile-account-user">
@@ -32,7 +32,7 @@ const TopBarDark = ({ topClass, fluid }) => {
             </ul>
             </div>
           </Col>
-          <Col lg="6" className="text-right">
+          <Col className="text-right">
             <ul className="header-dropdown">
               <li className="mobile-account-user">
               <Button className=" lang-es lang-text lang-btn" onClick={() => i18n.changeLanguage("es")}>ES

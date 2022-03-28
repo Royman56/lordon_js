@@ -8,7 +8,7 @@ const MasterBanner = ({ img, title, desc, link, classes, btn, btnClass }) => {
         <Container>
           <Row>
             <Col>
-              <div className="slider-contain">
+              <div>
                 <div>
                   <h4>{title}</h4>
                   <h1>{desc}</h1>
