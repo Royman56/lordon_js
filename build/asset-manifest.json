@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lordon_js/static/css/main.4900ce0d.css",
-    "main.js": "/lordon_js/static/js/main.2343b80a.js",
+    "main.css": "/lordon_js/static/css/main.1a697ef9.css",
+    "main.js": "/lordon_js/static/js/main.765edd09.js",
     "static/js/193.32bb2404.chunk.js": "/lordon_js/static/js/193.32bb2404.chunk.js",
-    "static/media/vision.png": "/lordon_js/static/media/vision.4da5dfe104553dadbc8d.png",
+    "static/media/quesomos.png": "/lordon_js/static/media/quesomos.ab92f6b722b99f2b2157.png",
+    "static/media/vision.png": "/lordon_js/static/media/vision.5cdacfbde07e003eb056.png",
+    "static/media/mision.png": "/lordon_js/static/media/mision.cd20fa92a6c8db28afac.png",
     "static/media/1.jpg": "/lordon_js/static/media/1.4c2c51e44af4c41f4dc4.jpg",
     "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
     "static/media/3.jpg": "/lordon_js/static/media/3.daeee065d8fdd0cdc9c7.jpg",
     "static/media/5.jpg": "/lordon_js/static/media/5.ec947b3ac841f8d25fbd.jpg",
     "static/media/4.jpg": "/lordon_js/static/media/4.ec947b3ac841f8d25fbd.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
-    "static/media/mision.png": "/lordon_js/static/media/mision.79cb177db2a08b2d2f43.png",
     "static/media/17.png": "/lordon_js/static/media/17.9294ffc06effc0ee4410.png",
-    "static/media/quesomos.png": "/lordon_js/static/media/quesomos.4caed1bd578518513cf0.png",
     "static/media/fontawesome-webfont.eot": "/lordon_js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -78,12 +78,12 @@
     "static/media/slick.ttf": "/lordon_js/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lordon_js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lordon_js/index.html",
-    "main.4900ce0d.css.map": "/lordon_js/static/css/main.4900ce0d.css.map",
-    "main.2343b80a.js.map": "/lordon_js/static/js/main.2343b80a.js.map",
+    "main.1a697ef9.css.map": "/lordon_js/static/css/main.1a697ef9.css.map",
+    "main.765edd09.js.map": "/lordon_js/static/js/main.765edd09.js.map",
     "193.32bb2404.chunk.js.map": "/lordon_js/static/js/193.32bb2404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4900ce0d.css",
-    "static/js/main.2343b80a.js"
+    "static/css/main.1a697ef9.css",
+    "static/js/main.765edd09.js"
   ]
 }

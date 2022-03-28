@@ -25,9 +25,6 @@ const Parallax = () => {
       <MasterParallaxBanner
         bg="parallax-banner1"
         parallaxClass="text-center p-left"
-        title="2021"
-        subTitle1={t("parallax.parallax1")}
-        subTitle2={t("parallax.parallax2")}
       />
     </Fragment>
   );
