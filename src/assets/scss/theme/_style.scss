@@ -46,7 +46,6 @@
 /*=====================
     1.General CSS start
 ==========================*/
-*{padding: 0; margin: 0; box-sizing: border-box;}
 body {
   font-family: $font_0, $font_1;
   position: relative;
@@ -2648,9 +2647,9 @@ padding-top: 3rem;
 
   .nav-menu {
     display: block;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    height: 1000vh;
+    height: 100vh;
     position: absolute;
     top: 100px;
     left: -100%;
