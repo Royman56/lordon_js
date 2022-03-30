@@ -17,6 +17,7 @@ import CommonLayout from "../../../../../components/shop/common-layout";
 import Slider from "react-slick";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { useTranslation } from "react-i18next";
 
 const DetailProduct = (props) => {
   const [state, setState] = useState({ nav1: null, nav2: null });
@@ -26,6 +27,7 @@ const DetailProduct = (props) => {
   const [product, setProduct] = useState([]);
   const history = useHistory();
   const [activeTab, setActiveTab] = useState("1");
+  const [t, i18n] = useTranslation("global");
   var products = {
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -86,7 +88,7 @@ const DetailProduct = (props) => {
 
   }
   return (
-    <CommonLayout parent="collections" title="producto">
+    <CommonLayout parent={t("view-category.category9")} title={product.name_product}>
       <>
         <div className="collection-wrapper">
           <Container>

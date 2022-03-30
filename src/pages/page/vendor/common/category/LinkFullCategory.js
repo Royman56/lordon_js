@@ -7,23 +7,7 @@ import { useHistory } from 'react-router';
 import CommonLayout from "../../../../../components/shop/common-layout";
 import Sad from "../../../../../assets/images/sad.png";
 import ReactGa from 'react-ga';
-import { I18nextProvider } from "react-i18next";
-import i18next from "i18next";
-import global_es from "../../../../../pages/lang/es/global.json";
-import global_en from "../../../../../pages/lang/en/global.json";
-
-i18next.init({
-  interpolation: { escapeValue: false },
-  lng: "en",
-  resources: {
-    es: {
-      global: global_es
-    },
-    en: {
-      global: global_en
-    }
-  }
-});
+import { useTranslation } from "react-i18next";
 
 const LinkFullCategory = (props) => {
   const [loading, setLoading] = useState(true);
@@ -31,8 +15,9 @@ const LinkFullCategory = (props) => {
   const [subcategory, setSubCategory] = useState([]);
   const subcategoryCount = subcategory.length;
   const history = useHistory();
-  
-  const ClickHandler = () =>{
+  const [t, i18n] = useTranslation("global");
+
+  const ClickHandler = () => {
     ReactGa.event({
       category: 'Producto',
       action: 'Click'
@@ -71,9 +56,9 @@ const LinkFullCategory = (props) => {
   if (loading) {
 
     return <Container className="col-md-2">
-    <Row><h4 className="button-center">Cargando Sub Categorias...</h4>
-    </Row>
-          </Container>
+      <Row><h4 className="button-center">Cargando Sub Categorias...</h4>
+      </Row>
+    </Container>
 
   } else {
     var showSubCategoryList = "";
@@ -83,30 +68,29 @@ const LinkFullCategory = (props) => {
       showSubCategoryList =
         subcategory.map((item, idx) => {
           return (
+            <div className="col-md-6" key={idx}>
             <Link to={`/collections/${item.slug}`}>
-           
-             {/* <div className="col-md-4" key={idx}>*/}
-              <Row key={idx} className="button-tp button-mrg">
-              <Col xs={12} md={12}>
-              
-              <div className="collection-banner">
-                  <Container className="col-md-6">
-                    <Row>
-                      <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" alt={item.image} />
-                    </Row>
-                  </Container>
-                  <div className="blog-details" onClick={ClickHandler}>
 
-                    <h4>{item.name}</h4>
+              {/* <div className="col-md-4" key={idx}>*/}
+                  <div className="collection-banner">
+                    <Container className="col-md-6">
+                      <Row>
+                        <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" alt={item.image} />
+                      </Row>
+                    </Container>
+                    <div className="blog-details" onClick={ClickHandler}>
+
+                      <h4>{item.name}</h4>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+
+                    </div>
 
                   </div>
-
-                </div>
-              
-              </Col>
-              </Row>
-             
-            </Link>
+                  </Link>
+                  </div>
 
 
           )
@@ -114,35 +98,35 @@ const LinkFullCategory = (props) => {
     }
     else {
       showSubCategoryList =
-      <Container className="col-md-4">
+        <Container className="col-md-4">
           <Row>
-      <h4 className="button-center">Ningúna Sub Categoria Para Mostrar En {category.name}</h4>
-          <img className="button-center" src={Sad} alt="sad"/>
+            <h4 className="button-center">Ningúna Sub Categoria Para Mostrar En {category.name}</h4>
+            <img className="button-center" src={Sad} alt="sad" />
           </Row>
-          </Container>   
-          
-    
+        </Container>
+
+
     }
   }
   return (
-    <I18nextProvider i18n={i18next}>
-    <CommonLayout parent="collections" title={category.name}>
-      <Fragment >
-        {/*collection banner*/}
-     
-          <Container className="col-md-12">
-          <Row>
-             
-              {showSubCategoryList}
-             
-              </Row>
-          </Container>
-    
 
-        {/*collection banner end*/}
-      </Fragment>
-    </CommonLayout>
-    </I18nextProvider>
+      <CommonLayout parent={t("view-category.category2")} title={t("view-category.category8")}>
+        <Fragment >
+          {/*collection banner*/}
+
+          <Container className="col-md-12">
+            <Row>
+
+              {showSubCategoryList}
+
+            </Row>
+          </Container>
+
+
+          {/*collection banner end*/}
+        </Fragment>
+      </CommonLayout>
+
   );
 };
 

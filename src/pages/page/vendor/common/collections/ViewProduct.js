@@ -7,6 +7,7 @@ import { useHistory } from 'react-router';
 import CommonLayout from "../../../../../components/shop/common-layout";
 import Sad from "../../../../../assets/images/sad.png";
 import ReactGa from 'react-ga';
+import { useTranslation } from "react-i18next";
 
 const ViewProduct = (props) => {
   const [loading, setLoading] = useState(true);
@@ -14,8 +15,9 @@ const ViewProduct = (props) => {
   const [subcategory, setSubCategory] = useState([]);
   const productCount = product.length;
   const history = useHistory();
-  
-  const ClickHandler = () =>{
+  const [t, i18n] = useTranslation("global");
+
+  const ClickHandler = () => {
     ReactGa.event({
       category: 'Producto',
       action: 'Click'
@@ -53,12 +55,12 @@ const ViewProduct = (props) => {
 
   if (loading) {
 
-    
+
 
     return <Container className="col-md-2">
-    <Row><h4 className="button-center">Cargando Productos...</h4>
-    </Row>
-          </Container>
+      <Row><h4 className="button-center">Cargando Productos...</h4>
+      </Row>
+    </Container>
 
   } else {
     var showProductList = "";
@@ -68,32 +70,34 @@ const ViewProduct = (props) => {
       showProductList =
         product.map((item, idx) => {
           return (
-            <Link to={`/collections/${item.subcategory.slug}/${item.id}`}>
-           
-             {/* <div className="col-md-4" key={idx}>*/}
-              <Row key={idx} className="button-tp button-mrg">
-              <Col xs={12} md={12}>
-              
-              <div className="collection-banner">
-                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
-                </div>
-                <div className="card-body">
-                <div style={{ color: '#000' }}  onClick={ClickHandler}>
+            <div className="col-md-6" key={idx}>
+              <Link to={`/collections/${item.subcategory.slug}/${item.id}`}>
 
-                  <h4>{item.name_product}</h4>
+                {/* <div className="col-md-4" key={idx}>*/}
+
+                <div className="collection-banner">
+                  <Container className="col-md-6">
+                    <Row>
+                      <img src={`http://localhost:8000/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
+                    </Row>
+                  </Container>
+                  <div className="blog-details">
+                    <div style={{ color: '#000' }} onClick={ClickHandler}>
+
+                      <h4>{item.name_product}</h4>
+                    </div>
+
+                    <h5 className="text-product">
+                      {item.price_product}
+                    </h5>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
                   </div>
-
-                  <h5 className="text-product">
-                    {item.price_product}
-                  </h5>
                 </div>
-
-              {/*</div>*/}
-              
-              </Col>
-              </Row>
-             
-            </Link>
+              </Link>
+            </div>
 
 
           )
@@ -101,29 +105,29 @@ const ViewProduct = (props) => {
     }
     else {
       showProductList =
-      <Container className="col-md-4">
+        <Container className="col-md-4">
           <Row>
-      <h4 className="button-center">Ningún Producto Para Mostrar En {subcategory.name}</h4>
-          <img className="button-center" src={Sad} alt="sad"/>
+            <h4 className="button-center">Ningún Producto Para Mostrar En {subcategory.name}</h4>
+            <img className="button-center" src={Sad} alt="sad" />
           </Row>
-          </Container>   
-          
-    
+        </Container>
+
+
     }
   }
   return (
-    <CommonLayout parent="collections" title={subcategory.name}>
+    <CommonLayout parent={t("view-category.category8")}  title={t("view-category.category9")}>
       <Fragment >
         {/*collection banner*/}
-     
-          <Container className="col-md-12">
+
+        <Container className="col-md-12">
           <Row>
-             
-              {showProductList}
-             
-              </Row>
-          </Container>
-    
+
+            {showProductList}
+
+          </Row>
+        </Container>
+
 
         {/*collection banner end*/}
       </Fragment>

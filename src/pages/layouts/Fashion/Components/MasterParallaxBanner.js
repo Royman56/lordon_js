@@ -16,7 +16,7 @@ const MasterParallaxBanner = ({
           <Container>
             <Row>
               <Col>
-                <div className="banner-contain">
+                <div>
                   <h2>{title}</h2>
                   <h3>{subTitle1}</h3>
                   <h4>{subTitle2}</h4>

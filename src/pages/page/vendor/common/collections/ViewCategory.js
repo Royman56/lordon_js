@@ -49,18 +49,19 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
 
           <div className="col-md-6" key={idx}>
             <Link to={`/viewfullcategory/${item.slug}`}>
-       
-                <div className="collection-banner">
-                  <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" style={{ maxWidth: '30rem' }} alt={item.image} />
-                  <div className="blog-details" onClick={ClickHandler}>
 
-                    <h4>{item.name}</h4>
+              <div className="collection-banner">
+                <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" style={{ maxWidth: '30rem' }} alt={item.image} />
+                <div className="blog-details" onClick={ClickHandler}>
 
-                  </div>
+                  <h4>{item.name}</h4>
+                  <br></br>
 
                 </div>
 
-              
+              </div>
+
+
             </Link>
           </div>
 
@@ -71,7 +72,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
   return (
     <Fragment>
       <section className={sectionClass}>
-      <Container>
+        <Container>
           <Row>
             <Col md="12">
               <div className={title}>
@@ -87,7 +88,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
               <Row>
                 <Col lg="12" className="m-auto">
                   <div className="product-para">
-                    <p  className="text-blue">{t("view-category.category6")}</p>
+                    <p className="text-blue">{t("view-category.category6")}</p>
                     <p className="text-blue">{t("view-category.category7")}</p>
                   </div>
                 </Col>
@@ -120,17 +121,17 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
           <br></br>
           <br></br>
           <Row>
-                <Col lg="6" className="m-auto">
-                  <div className="product-para">
-                  <Link to='/viewfullcategory/'>
-          <Button className="btn btn-solid button-center" type="submit"
-          >
-            {t("view-category.category4")}
-          </Button>
-          </Link>
-                  </div>
-                </Col>
-              </Row>
+            <Col lg="6" className="m-auto">
+              <div className="product-para">
+                <Link to='/viewfullcategory/'>
+                  <Button className="btn btn-solid button-center" type="submit"
+                  >
+                    {t("view-category.category4")}
+                  </Button>
+                </Link>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </section>
     </Fragment>

@@ -33,32 +33,9 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
           </Row>
 
           <div className="form-container">
-            <form className="register-form">
-              <input
-                id="first-name"
-                className="form-field input-form"
-                type="text"
-                placeholder="First Name"
-                name="firstName"
-              />
-              <input
-                id="last-name"
-                className="form-field input-form"
-                type="text"
-                placeholder="Last Name"
-                name="lastName"
-              />
-              <input
-                id="email"
-                className="form-field input-form"
-                type="text"
-                placeholder="Email"
-                name="email"
-              />
-              <button className="form-field button-form" type="submit">
-                Register
-              </button>
-            </form>
+          <form>
+          <iframe src="https://mrtips.formstack.com/forms/cws_copy" title="Web Site Contacto - Lordon"></iframe>
+            </form>   
           </div>
 
 
