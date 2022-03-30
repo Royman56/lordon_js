@@ -32,7 +32,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
             </Col>
           </Row>
           <form>
-          <iframe className="form" src="https://mrtips.formstack.com/forms/cws_copy" title="Web Site Contacto - Lordon"></iframe>
+         <iframe className="form" src="https://mrtips.formstack.com/forms/lordon_cws" title="Web Site Contacto - Lordon"></iframe>
             </form>   
   
 
