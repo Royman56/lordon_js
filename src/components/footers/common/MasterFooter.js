@@ -64,7 +64,7 @@ const MasterFooter = ({
                       setIsOpen(!isOpen);
                     }}
                   >
-                    sobre nosotros
+                    {t("footer.footer0")}
                     <span className="according-menu"></span>
                   </h4>
                 </div>
@@ -86,8 +86,8 @@ const MasterFooter = ({
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com" target="_blank">
-                            <i className="fa fa-twitter" aria-hidden="true"></i>
+                          <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
+                            <i className="fa fa-whatsapp" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li>

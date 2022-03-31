@@ -1,12 +1,22 @@
 {
     "header-one": {
         "menu1": "Inicio",
+        "menu5": "Buscar",
+        "menu6": "Iniciar Sesión",
+        "menu7": "Contraseña",
+        "menu8": "Ingrese Email",
+        "menu9": "Ingrese Contraseña",
         "menu2": "Catálogo",
         "menu3": "Empresa",
         "menu4": "Contacto"
     },
 
     "view-category": {
+        "category0": "Cargando Categorias...",
+        "category10": "Cargando Productos...",
+        "category11": "Cargando Sub Categorias...",
+        "category12": "Ningúna Sub Categoria Para Mostrar En",
+        "category13": "Ningún Producto Para Mostrar En",
         "category1": "variedad y calidad",
         "category2": "Categorias",
         "category8": "Subcategorias",
@@ -51,6 +61,7 @@
     },
 
     "footer": {
+        "footer0": "Sobre Nosotros",
         "footer1": "Contacto",
         "footer2": "Dirección",
         "footer3": "Aviso de privacidad",

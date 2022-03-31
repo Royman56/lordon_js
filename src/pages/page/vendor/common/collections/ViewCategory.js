@@ -37,7 +37,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
   if (loading) {
 
     return <Container className="col-md-2">
-      <Row><h4 className="button-center">Cargando Categorias...</h4>
+      <Row><h4 className="button-center">{t("view-category.category0")} </h4>
       </Row>
     </Container>
 

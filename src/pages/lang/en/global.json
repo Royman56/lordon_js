@@ -1,12 +1,22 @@
 {
     "header-one": {
         "menu1": "Home",
+        "menu5": "Search",
+        "menu6": "Login",
+        "menu7": "Password",
+        "menu8": "Enter Email",
+        "menu9": "Enter Password",
         "menu2": "Our Products",
         "menu3": "Our Company",
         "menu4": "Contact us"
     },
 
     "view-category": {
+        "category0": "Loading Categories...",
+        "category10": "Loading Products...",
+        "category11": "Loading Sub Categories...",
+        "category12": "There Is No Subcategory To Display In",
+        "category13": "There Is No Product To Display In",
         "category1": "variety and quality",
         "category2": "categories",
         "category8": "Subcategories",
@@ -51,6 +61,7 @@
     },
 
     "footer": {
+        "footer0": "About Us",
         "footer1": "contact",
         "footer2": "address",
         "footer3": "privacy notice",

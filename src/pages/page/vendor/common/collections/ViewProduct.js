@@ -58,7 +58,7 @@ const ViewProduct = (props) => {
 
 
     return <Container className="col-md-2">
-      <Row><h4 className="button-center">Cargando Productos...</h4>
+      <Row><h4 className="button-center">{t("view-category.category10")} </h4>
       </Row>
     </Container>
 

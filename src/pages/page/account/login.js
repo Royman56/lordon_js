@@ -7,9 +7,11 @@ import Link from "next/link";
 import swal from 'sweetalert';
 import { useHistory } from 'react-router';
 import axios from 'axios';
+import { useTranslation } from "react-i18next";
 
 const Login = () => {
     const history = useHistory();
+    const [t, i18n] = useTranslation("global");
 
     const [loginInput, setLogin] = useState({
         email: '',
@@ -56,12 +58,12 @@ const Login = () => {
 }
 
     return (
-        <CommonLayout parent="home" title="login">
+        <CommonLayout parent={t("header-one.menu1")} title={t("header-one.menu6")}>
             <section className="login-page section-b-space">
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col lg="8">
-                            <h3>Iniciar Sesión</h3>
+                            <h3>{t("header-one.menu6")}</h3>
                             <div className="theme-card">
                                 <Form onSubmit={loginSubmit} className="theme-form">
                                     <div className="form-group">
@@ -69,18 +71,18 @@ const Login = () => {
                                         <input className="form-control"
                                                         name="email"
                                                         type="email"
-                                                        placeholder="Ingrese email"
+                                                        placeholder={t("header-one.menu8")}
                                                         aria-describedby="basic-addon" 
                                                         onChange={handleInput}
                                                         value={loginInput.email}/>
                                             <small className="text-danger">{loginInput.error_list.email}</small>
                                     </div>
                                     <div className="form-group">
-                                        <Label for="review">Contraseña</Label>
+                                        <Label for="review">{t("header-one.menu7")}</Label>
                                         <input className="form-control"
                                                         name="password"
                                                         type="password"
-                                                        placeholder="Ingrese contraseña"
+                                                        placeholder={t("header-one.menu9")}
                                                         aria-describedby="basic-addon" 
                                                         onChange={handleInput}
                                                         value={loginInput.password}/>
@@ -89,7 +91,7 @@ const Login = () => {
                                     <div className="offset-xl-8 offset-sm-8">
                                             <Button className="btn btn-solid" type="submit"
                                             >
-                                                Iniciar Sesión
+                                                {t("header-one.menu6")}
                                             </Button>
 
                                         </div>
