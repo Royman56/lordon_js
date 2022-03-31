@@ -7389,7 +7389,7 @@ footer {
         margin-top: 0;
 
         i {
-          font-size: 18px;
+          font-size: 38px;
         }
 
         li {
@@ -8622,7 +8622,7 @@ footer {
   }
 
   i {
-    font-size: 20px;
+    font-size: 30px;
     color: $black;
     transition: 0.5s ease;
 
@@ -16427,9 +16427,10 @@ table {
 }
 
 .img-round {
-    width:300px;
-    height:300px;
-    border-radius:150px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 
   video#background-video {
@@ -16529,4 +16530,11 @@ table {
       display: block;
       margin: auto;
      }
+}
+
+.h3-definity {
+  font-size: 26px;
+  font-weight: 400;
+  color: $black;
+  letter-spacing: 0.03em;
 }

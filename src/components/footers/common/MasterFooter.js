@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
+import { Link } from 'react-router-dom';
 import {
   Container,
   Row,
@@ -73,10 +73,19 @@ const MasterFooter = ({
                 >
                   <div className="footer-contant">
                     <div className="footer-logo">
+                    <Link to='/'>
                       <img src={logo} alt="" topClass="top-header" />
+                      </Link>
                     </div>
+                    
                     <div className="footer-social">
                       <ul>
+                      <li>
+                          <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
+                            <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                          </a>
+                        </li>
+
                         <li>
                           <a href="https://www.facebook.com" target="_blank">
                             <i
@@ -85,11 +94,7 @@ const MasterFooter = ({
                             ></i>
                           </a>
                         </li>
-                        <li>
-                          <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
-                            <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                          </a>
-                        </li>
+              
                         <li>
                           <a href="https://www.instagram.com" target="_blank">
                             <i
@@ -128,7 +133,14 @@ const MasterFooter = ({
                     >
                       <div className="footer-contant">
                         <ul className="contact-list">
-
+                        <a href="/">
+                        <li>
+                        
+                            <i className="fa fa-share"></i>
+                            <i></i>{t("footer.back-text")}
+                       
+                          </li>
+                          </a>
                           <li>
                             <i className="fa fa-phone"></i>{t("footer.phone")} :{" "}
                             <i></i>5525982376

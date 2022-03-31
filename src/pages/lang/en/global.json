@@ -68,6 +68,7 @@
         "email": "Email",
         "phone": "Telephone",
         "hour": "Hours of operation",
-        "hour-text": "9:00 a 18:00hrs (Mon - Friday)"
+        "hour-text": "9:00 a 18:00hrs (Mon - Friday)",
+        "back-text": "Back To Home"
     }
 }

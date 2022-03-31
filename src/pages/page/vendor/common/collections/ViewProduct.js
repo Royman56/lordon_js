@@ -81,10 +81,11 @@ const ViewProduct = (props) => {
                       <img src={`http://localhost:8000/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
                     </Row>
                   </Container>
+                  <br></br>
                   <div className="blog-details">
                     <div style={{ color: '#000' }} onClick={ClickHandler}>
 
-                      <h4>{item.name_product}</h4>
+                      <h3 className="h3-definity">{item.name_product}</h3>
                     </div>
 
                     <h5 className="text-product">

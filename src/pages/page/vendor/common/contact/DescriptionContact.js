@@ -11,7 +11,6 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-              <h4 className="text-red text-center">{t("contact.contact1")}</h4>
                 <h2 className="text-center text-red">{t("contact.contact2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
@@ -39,63 +38,9 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
 
         </Container>
       </section>
-      <section>
-        <Container>
-          <Row>
-            <Col md="12">
-              <div className={title}>
-              <h4 className="text-red text-center">{t("contact.contact3")}</h4>
-                <h2 className="text-center text-red">{t("contact.contact4")}</h2>
-                {hrClass ? (
-                  <hr role="tournament6"></hr>
-                ) : (
-                  <div className="line">
-                    <span></span>
-                  </div>
-                )}
-              </div>
-
-            
-              <div className="contact-social button-mrg">
-                  <Button className="btn btn-contact button-center" type="submit"
-                  >
-                    <a href="https://www.facebook.com" target="_blank">
-                      <i
-                        className="fa fa-facebook"
-                        aria-hidden="true"
-                      ></i>
-                    </a>
-                  </Button>
-
-                
-                  <Button className="btn btn-contact button-center" type="submit"
-                  >
-                    <a href="https://www.instagram.com" target="_blank">
-                      <i
-                        className="fa fa-instagram"
-                        aria-hidden="true"
-                      ></i>
-                    </a>
-                  </Button>
-
-                  <Button className="btn btn-contact button-center" type="submit"
-                  >
-                    <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
-                      <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                    </a>
-                    
-                  </Button>
-
-                
-              </div>
-        
-
-            </Col>
-          </Row>
-
-
-        </Container>
-      </section>
+      <br></br>
+      <br></br>
+      <br></br>
     </Fragment>
 
 

@@ -25,7 +25,7 @@
         "category4": "Ver Catálogo",
         "category5": "Comercializamos y Distribuimos productos nacionales e internacionales",
         "category6": "Somos una organización empresarial especializada en la distribución y comercialización de productos nacionales e internacionales en el mercado del retail. Nuestros productos son prácticos y accesibles con énfasis en su calidad al mejor precio.",
-        "category7": "En LORDON siempre estamos con una disposición a innovar, cuestionar y desafiar, tomando decisiones estratégicas inspiradas en una visi n global, teniendo como foco principal las necesidades del usuario final."
+        "category7": "En LORDON siempre estamos con una disposición a innovar, cuestionar y desafiar, tomando decisiones estratégicas inspiradas en una visión global, teniendo como foco principal las necesidades del usuario final."
     },
 
     "parallax": {
@@ -68,6 +68,7 @@
         "email": "Correo",
         "phone": "Teléfono",
         "hour": "Horario",
-        "hour-text": "9:00 a 18:00hrs (Lunes a Viernes)"
+        "hour-text": "9:00 a 18:00hrs (Lunes a Viernes)",
+        "back-text": "Volver Al Inicio"
     }
 }

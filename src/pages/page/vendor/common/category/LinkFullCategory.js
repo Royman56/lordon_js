@@ -78,9 +78,10 @@ const LinkFullCategory = (props) => {
                         <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" alt={item.image} />
                       </Row>
                     </Container>
+                    <br></br>
                     <div className="blog-details" onClick={ClickHandler}>
 
-                      <h4>{item.name}</h4>
+                      <h3 className="h3-definity">{item.name}</h3>
                       <br></br>
                       <br></br>
                       <br></br>

@@ -51,10 +51,11 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
             <Link to={`/viewfullcategory/${item.slug}`}>
 
               <div className="collection-banner">
-                <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" style={{ maxWidth: '30rem' }} alt={item.image} />
+                <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} className="image-fluid img-round" style={{ maxWidth: '30rem' }} alt={item.image} />
+                  <br></br>
                 <div className="blog-details" onClick={ClickHandler}>
 
-                  <h4>{item.name}</h4>
+                  <h3 className="h3-definity">{item.name}</h3>
                   <br></br>
 
                 </div>
@@ -101,7 +102,6 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-                <h4 className="text-center text-red">{t("view-category.category1")}</h4>
                 <h2 className="text-center text-red">{t("view-category.category2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
@@ -117,8 +117,6 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
 
             </Col>
           </Row>
-          <br></br>
-          <br></br>
           <br></br>
           <Row>
             <Col lg="6" className="m-auto">
