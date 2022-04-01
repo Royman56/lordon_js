@@ -54,7 +54,7 @@ const ViewFullCategory = () => {
               <div className="collection-banner">
                 <Container className="col-md-6">
                   <Row>
-                    <img src={`http://localhost:8000/${item.image}`} className="image-fluid img-round" alt={item.image} />
+                    <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} className="image-fluid img-round" alt={item.image} />
                   </Row>
                 </Container>
                 <br></br>
