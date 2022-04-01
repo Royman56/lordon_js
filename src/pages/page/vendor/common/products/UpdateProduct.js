@@ -430,7 +430,7 @@ const UpdateProduct = (props) => {
                                                     onChange={handleImage}
                                                 ></input>
                                                 <div className="card-body text-right">
-                                                    <img src={`http://localhost:8000/${productInput.image1}`} width="100px" alt={productInput.name_product} />
+                                                    <img src={`https://desolate-bayou-69148.herokuapp.com/${productInput.image1}`} width="100px" alt={productInput.name_product} />
                                                 </div>
                                                 <small className="text-danger">{errorlist.image1}</small>
                                             </Col>
@@ -447,7 +447,7 @@ const UpdateProduct = (props) => {
                                                     onChange={handleImage2}
                                                 ></input>
                                                 <div className="card-body text-right">
-                                                    <img src={`http://localhost:8000/${productInput.image2}`} width="100px" alt={productInput.name_product} />
+                                                    <img src={`https://desolate-bayou-69148.herokuapp.com/${productInput.image2}`} width="100px" alt={productInput.name_product} />
                                                 </div>
                                                 <small className="text-danger">{errorlist.image2}</small>
                                             </Col>
@@ -469,7 +469,7 @@ const UpdateProduct = (props) => {
                                                     onChange={handleImage3}
                                                 ></input>
                                                 <div className="card-body text-right">
-                                                    <img src={`http://localhost:8000/${productInput.image3}`} width="100px" alt={productInput.name_product} />
+                                                    <img src={`https://desolate-bayou-69148.herokuapp.com/${productInput.image3}`} width="100px" alt={productInput.name_product} />
                                                 </div>
                                                 <small className="text-danger">{errorlist.image3}</small>
                                             </Col>
@@ -486,7 +486,7 @@ const UpdateProduct = (props) => {
                                                     onChange={handleImage4}
                                                 ></input>
                                                 <div className="card-body text-right">
-                                                    <img src={`http://localhost:8000/${productInput.image4}`} width="100px" alt={productInput.name_product} />
+                                                    <img src={`https://desolate-bayou-69148.herokuapp.com/${productInput.image4}`} width="100px" alt={productInput.name_product} />
                                                 </div>
                                                 <small className="text-danger">{errorlist.image4}</small>
 

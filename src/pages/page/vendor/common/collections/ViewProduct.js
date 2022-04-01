@@ -78,7 +78,7 @@ const ViewProduct = (props) => {
                 <div className="collection-banner">
                   <Container className="col-md-6">
                     <Row>
-                      <img src={`http://localhost:8000/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
+                      <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
                     </Row>
                   </Container>
                   <br></br>

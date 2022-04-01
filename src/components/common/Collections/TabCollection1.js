@@ -121,7 +121,7 @@ const SpecialProducts = ({ sectionClass, title, inner, hrClass }) => {
                   <div className="collection-banner">
                   <Link href={`/collections/${item.category.slug}/${item.id}`}>
                   <a>
-                  <img src={`http://localhost:8000/${item.image1}`} className="image-fluid" alt={item.image1}/>
+                  <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} className="image-fluid" alt={item.image1}/>
                   </a>
                   </Link>
                   <div className="blog-details">

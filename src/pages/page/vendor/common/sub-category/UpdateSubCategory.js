@@ -241,7 +241,7 @@ const UpdateSubCategory = (props) => {
                                         onChange={handleImage}
                                     ></input>
                                     <div className="card-body text-right">
-                                    <img src={`http://localhost:8000/${subcategoryInput.image}`} width="100px" alt={subcategoryInput.name}/>
+                                    <img src={`https://desolate-bayou-69148.herokuapp.com/${subcategoryInput.image}`} width="100px" alt={subcategoryInput.name}/>
                                     </div>
                                 
                                 </Col>

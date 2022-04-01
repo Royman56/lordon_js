@@ -104,19 +104,19 @@ const DetailProduct = (props) => {
                     <Col lg="6" className="product-thumbnail">
                       <Carousel >
                         <div className="image">
-                          <img src={`http://localhost:8000/${product.image1}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
+                          <img src={`https://desolate-bayou-69148.herokuapp.com/${product.image1}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
                         </div>
 
                         <div className="image">
-                          <img src={`http://localhost:8000/${product.image2}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
+                          <img src={`https://desolate-bayou-69148.herokuapp.com/${product.image2}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
                         </div>
 
                         <div className="image">
-                          <img src={`http://localhost:8000/${product.image3}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
+                          <img src={`https://desolate-bayou-69148.herokuapp.com/${product.image3}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
                         </div>
 
                         <div className="image">
-                          <img src={`http://localhost:8000/${product.image4}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
+                          <img src={`https://desolate-bayou-69148.herokuapp.com/${product.image4}`} className="image-fluid" style={{ maxWidth: '30rem' }} alt={product.name_product} />
                         </div>
 
                       </Carousel>

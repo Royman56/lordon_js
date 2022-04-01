@@ -19,7 +19,7 @@ const SearchProduct = () => {
     async function search(key){
         console.warn(key)
 
-        let result = await fetch("http://localhost:8000/api/search/"+key);
+        let result = await fetch("https://desolate-bayou-69148.herokuapp.com/api/search/"+key);
         result=await result.json();
         setData(result)
     }
@@ -35,7 +35,7 @@ const SearchProduct = () => {
               <div className="collection-banner">
               <Container className="col-md-6">
                       <Row>
-                <img src={`http://localhost:8000/${item.image1}`} className="image-fluid  img-round" alt={item.name_product} />
+                <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} className="image-fluid  img-round" alt={item.name_product} />
                 </Row>
                     </Container>
                 </div>

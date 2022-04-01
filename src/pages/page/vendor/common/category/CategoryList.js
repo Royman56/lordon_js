@@ -54,7 +54,7 @@ const CategoryList = () => {
                 <tr key={item.id}>
                     
                     <td>{item.name}</td>
-                    <td><img src={`http://localhost:8000/${item.image}`} width="50px" alt={item.name}/></td>
+                    <td><img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} width="50px" alt={item.name}/></td>
                     <td>
                     <Link href={`/updatecategory/${item.id}`}>
                   <a>

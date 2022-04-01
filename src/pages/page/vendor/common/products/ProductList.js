@@ -56,7 +56,7 @@ const ProductList = () => {
                     <td>{item.name_product}</td>
                     <td>{item.price_product}</td>
                     <td>{item.discount_price}</td>
-                    <td><img src={`http://localhost:8000/${item.image1}`} width="50px" alt={item.name_product}/></td>
+                    <td><img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} width="50px" alt={item.name_product}/></td>
                     <td>
                     <Link href={`/updateproduct/${item.id}`}>
                   <a>
