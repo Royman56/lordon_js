@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import swal from 'sweetalert';
-import Link from "next/link";
+import { Link } from 'react-router-dom';
 import {
     Row,
     Col,
@@ -12,6 +12,7 @@ import {
 const SubCategoryList = () => {
     const [loading, setLoading] = useState(true);
     const [subcategorylist, setSubCategorylist] = useState([]);
+    const [disabled, setDisabled] = useState(false);
 
     useEffect(() => {
         axios.get(`/api/view-subcategory`).then(res => {
@@ -56,16 +57,17 @@ const SubCategoryList = () => {
                     <td>{item.name}</td>
                     <td><img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} width="50px" alt={item.name}/></td>
                     <td>
-                    <Link href={`/updatesubcategory/${item.id}`}>
+                    <Link to={`/updatesubcategory/${item.id}`} target="_blank">
                   <a>
                     <i className="fa fa-pencil btn-solid btn-xs" aria-hidden="true"></i>
                   </a>
                 </Link>
                     </td>
-                 
-                    <td>
-                        <button type="button" onClick={ (e) => deleteSubCategory(e, item.id) } className="fa fa-trash btn-solid btn-xs"></button>
-                    </td>
+                 {subcategorylist.length === 1 ? <td>
+                        <button type="button" disabled={disabled} onClick={() => setDisabled(true)} className="fa fa-trash btn-solid btn-xs"></button>
+                    </td>:<td>
+                        <button type="button" disabled={false} onClick={ (e) => deleteSubCategory(e, item.id) } className="fa fa-trash btn-solid btn-xs"></button>
+                    </td>}
                 </tr>
             )
         });

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Link from "next/link";
+import { Link } from 'react-router-dom';
 import swal from 'sweetalert';
 import {
     Row,
@@ -58,7 +58,7 @@ const ProductList = () => {
                     <td>{item.discount_price}</td>
                     <td><img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} width="50px" alt={item.name_product}/></td>
                     <td>
-                    <Link href={`/updateproduct/${item.id}`}>
+                    <Link to={`/updateproduct/${item.id}`} target="_blank">
                   <a>
                     <i className="fa fa-pencil btn-solid btn-xs" aria-hidden="true"></i>
                   </a>

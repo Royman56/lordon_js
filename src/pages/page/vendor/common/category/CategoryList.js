@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Link from "next/link";
+import { Link } from 'react-router-dom';
 import swal from 'sweetalert';
 import {
     Row,
@@ -56,7 +56,7 @@ const CategoryList = () => {
                     <td>{item.name}</td>
                     <td><img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} width="50px" alt={item.name}/></td>
                     <td>
-                    <Link href={`/updatecategory/${item.id}`}>
+                    <Link to={`/updatecategory/${item.id}`} target="_blank">
                   <a>
                     <i className="fa fa-pencil btn-solid btn-xs" aria-hidden="true"></i>
                   </a>
