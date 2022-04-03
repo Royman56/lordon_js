@@ -50,13 +50,15 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
 
 
                                 <div className="right-content">
-                                    <img src={quesomos} alt="" className="phone" />
+                                    <img src={quesomos} alt="" className="phone image-fluid" />
                                 </div>
                             </div>
 
                         </Col>
                     </Row>
                 </Container>
+                <br></br>
+                <br></br>
                 <Container>
                     <Row>
                         <Col md="12">
@@ -73,13 +75,15 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
 
 
                                 <div className="right-content">
-                                    <img src={mision} alt="" className="phone" />
+                                    <img src={mision} alt="" className="phone image-fluid" />
                                 </div>
                             </div>
 
                         </Col>
                     </Row>
                 </Container>
+                <br></br>
+                <br></br>
                 <Container>
                     <Row>
                         <Col md="12">
@@ -96,7 +100,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
 
 
                                 <div className="right-content">
-                                    <img src={vision} alt="" className="phone" />
+                                    <img src={vision} alt="" className="phone image-fluid" />
                                 </div>
                             </div>
 

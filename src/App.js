@@ -33,16 +33,6 @@ function App({ Component, pageProps }) {
   return (
     
     <>
-    
-      {isLoading ? (
-        <div className="loader-wrapper">
-          {url === "Christmas" ? (
-            <div id="preloader"></div>
-          ) : (
-            <div className="loader"></div>
-          )}
-        </div>
-      ) : (
         <>
           <Helmet>
             <meta
@@ -77,7 +67,7 @@ function App({ Component, pageProps }) {
         
         </>
         
-      )}
+      
     </>
   );
 }
