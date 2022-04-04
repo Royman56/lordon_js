@@ -66,7 +66,7 @@ const SubCategoryList = () => {
                  {subcategorylist.length === 1 ? <td>
                         <button type="button" disabled={disabled} onClick={() => setDisabled(true)} className="fa fa-trash btn-solid btn-xs"></button>
                     </td>:<td>
-                        <button type="button" disabled={false} onClick={ (e) => deleteSubCategory(e, item.id) } className="fa fa-trash btn-solid btn-xs"></button>
+                        <button type="button" onClick={ (e) => deleteSubCategory(e, item.id) } className="fa fa-trash btn-solid btn-xs"></button>
                     </td>}
                 </tr>
             )

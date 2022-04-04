@@ -146,7 +146,7 @@ if (res.data.status === 200) {
                         <div className="top-sec">
                           <h3>Productos de la Tienda</h3>
                     
-                          <a href="/addproduct" className="btn btn-sm btn-solid">
+                          <a href="/addproduct" className="btn btn-sm btn-solid" target="_blank">
                             Agregar Producto
                           </a>
                        
@@ -168,7 +168,7 @@ if (res.data.status === 200) {
                       <CardBody>
                         <div className="top-sec">
                           <h3>Categorias De La Tienda</h3>
-                          <a href="/addcategory/" className="btn btn-sm btn-solid">
+                          <a href="/addcategory/" className="btn btn-sm btn-solid" target="_blank">
                             Agregar Categoria
                           </a>
                         </div>
@@ -185,7 +185,7 @@ if (res.data.status === 200) {
                       <CardBody>
                         <div className="top-sec">
                           <h3>Sub Categorias De La Tienda</h3>
-                          <a href="/addsubcategory/" className="btn btn-sm btn-solid">
+                          <a href="/addsubcategory/" className="btn btn-sm btn-solid" target="_blank">
                             Agregar Sub Categoria
                           </a>
                         </div>
