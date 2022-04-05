@@ -138,7 +138,7 @@ const DetailProduct = (props) => {
 
 
                         <div className="border-product">
-                          <h6 className="product-title">detalles del producto</h6>
+                          <h6 className="product-title">{t("business.business12")}</h6>
                           <p>{product.meta_description}</p>
                         </div>
 
@@ -146,7 +146,7 @@ const DetailProduct = (props) => {
                           <Link to='/contact/'>
                             <Button className="btn btn-solid text-center" type="submit"
                             >
-                              ¡Me Interesa!
+                              {t("business.business11")} 
                             </Button>
                           </Link>
                         </div>
@@ -167,7 +167,7 @@ const DetailProduct = (props) => {
                                 className={activeTab === "1" ? "active" : ""}
                                 onClick={() => setActiveTab("1")}
                               >
-                                Descripcion
+                                {t("business.business13")} 
                               </NavLink>
                             </NavItem>
 
