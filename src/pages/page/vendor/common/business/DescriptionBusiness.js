@@ -61,11 +61,33 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                 <br></br>
                 <Container>
                     <Row>
-                        <Col md="12">
-                            <div className="description">
-                                <div className="left-content">
-                                    <div className="left-text-container">
+                        <Col md="12" className="only-pc">
+                            <div className="description-business">
+                                <div className="left-content-business">
+                                <div className="right-content">
+                                    <img src={mision} alt="" className="phone image-fluid" />
+                                    </div>
+                                </div>
+
+                         
+                                <div className="left-text-container">
                                         <h1 className="text-red box-p">{t("business.business7")}</h1>
+                                        <p className="text-blue box-p2">
+                                            {t("business.business8")}
+                                        </p>
+
+                                 
+                                </div>
+                            </div>
+
+
+                        </Col>
+                        <Col md="12" className="only-phone">
+
+                            <div className="description-business">
+                                <div className="left-content-business">
+                                    <div className="left-text-container">
+                                    <h1 className="text-red box-p">{t("business.business7")}</h1>
                                         <p className="text-blue box-p2">
                                             {t("business.business8")}
                                         </p>
@@ -73,8 +95,9 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                     </div>
                                 </div>
 
-                                <div className="right">
-                                    <img src={mision} alt="" className="phone image-fluid" />
+
+                                <div className="right-content">
+                                <img src={mision} alt="" className="phone image-fluid" />
                                 </div>
                             </div>
 

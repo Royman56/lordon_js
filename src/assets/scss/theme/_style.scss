@@ -2518,7 +2518,7 @@ padding-top: 3rem;
         color:black;
     }
     h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 600;
         @media screen and (max-width: 700px){
             font-size: 3rem;
@@ -2560,7 +2560,7 @@ padding-top: 3rem;
         font-size: 1.5rem;
     }
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 600;
         @media screen and (max-width: 700px){
             font-size: 3rem;
@@ -2578,83 +2578,6 @@ padding-top: 3rem;
 }
 
 }
-
-.description{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-top: 3rem;
-  @media screen and (max-width: 700px){
-      grid-template-columns: repeat(1, 1fr);
-  }
-  .left-content{
-      display: flex;
-      align-items: center;
-      padding-right: 0rem;
-      padding-left: 0rem;
-      .phone{
-        width: 80%;
-    }
-  }
-  
-  .right{
-      position: relative;
-      display: flex;
-      justify-content: center;
-      .white{
-        color:black;
-    }
-    h1{
-        font-size: 4rem;
-        font-weight: 600;
-        @media screen and (max-width: 700px){
-            font-size: 3rem;
-        }
-    }
-
-    .white{
-        padding: 1.4rem 0;
-        line-height: 1.8rem;
-    }
-      
-  }
-  
-  }
-  
-  .description{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-top: 3rem;
-  @media screen and (max-width: 1200px){
-      grid-template-columns: repeat(1, 1fr);
-  }
-  .left-content{
-      display: flex;
-      align-items: center;
-      padding-right: 0rem;
-      padding-left: 0rem;
-      .phone{
-        max-width: 100%;
-    }
-  }
-  
-  .right{
-      position: relative;
-      display: flex;
-      justify-content: center;
-      .white-text{
-        color:black;
-        font-size: 1.5rem;
-    }
-    h1{
-        font-size: 4rem;
-        font-weight: 600;
-        @media screen and (max-width: 700px){
-            font-size: 3rem;
-        }
-    }
-  }
-  
-  }
 
 .box-p{
   text-align: center;
@@ -16632,6 +16555,30 @@ table {
       height: 250px;
       display: block;
       margin: auto;
+     }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1200px) { 
+  .only-phone {
+      display: inline-block;
+     }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 4000px) { 
+  .only-phone {
+      display: none;
+     }
+}
+
+@media screen and (min-width: 280px) and (max-width: 1200px) { 
+  .only-pc {
+      display: none;
+     }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 4000px) { 
+  .only-pc {
+      display: inline-block;
      }
 }
 
