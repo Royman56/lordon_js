@@ -114,7 +114,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                 <div className="left-content-business">
                                     <div className="left-text-container">
                                         <h1 className="text-red box-p">{t("business.business9")}</h1>
-                                        <p className="text-blue box-p2">
+                                        <p className="text-blue box-p2 ">
                                             {t("business.business10")}
                                         </p>
 

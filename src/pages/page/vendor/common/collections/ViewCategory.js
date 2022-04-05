@@ -111,7 +111,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
                   </div>
                 )}
               </div>
-              <Slider {...Slider2} className="slide-2 slick-arrow text-center">
+              <Slider {...Slider2} className="slide-2 slick-arrow text-center" autoplay={10000}>
                 {showCategoryList}
               </Slider>
 
