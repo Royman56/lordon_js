@@ -28,12 +28,6 @@ const Business = () => {
 
       <DescriptionBusiness />
 
-      <TopCollection
-
-        designClass="section-b-space p-t-0 ratio_asos"
-
-      />
-
       <MasterFooter
         footerClass={`footer-light`}
         footerLayOut={"light-layout upper-footer"}

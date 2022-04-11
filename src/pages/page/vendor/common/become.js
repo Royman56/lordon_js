@@ -25,13 +25,6 @@ const Become = () => {
 
       <ViewCategory />
 
-
-      <TopCollection
-
-        designClass="section-b-space p-t-0 ratio_asos"
-
-      />
-
       <Parallax />
 
 

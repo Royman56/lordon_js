@@ -23,9 +23,18 @@
         "category9": "Products",
         "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         "category4": "See Catalog",
-        "category5": "We sell and distribute domestic and international products",
-        "category6": "Our organization specializes in the sale and distribution of domestic and international products in the retail markets. Our products are practical and accessible with high quality standards.",
-        "category7": "At LORDON, we are always innovating and challenging ourselves to disrupt the status quo based on a strategic global vision behind a consumer centric culture."
+        "category5": "We sell and distribute",
+        "category55": " domestic and international products",
+        "category6": "Our organization",
+        "category66": " specializes in the sale and distribution",
+        "category667": " of domestic and international products in the retail markets. Our products are practical and accessible with high quality standards.",
+        "category7": "At",
+        "category77": " LORDON,",
+        "category777": " we are always",
+        "category7777": " innovating and challenging ourselves",
+        "category77777": " to disrupt the status quo based on a strategic global vision behind",
+        "category78": " a consumer centric culture."
+        
     },
 
     "parallax": {
@@ -42,7 +51,9 @@
         "business1": "Us",
         "business2": "ABOUT US?",
         "business4": "OUR CORE BUSINESS",
-        "business5": "Based on specific needs of our clients our job is to identify suppliers globally. Once the product is identified our goal is to stablish and end to end supply chain that delivers the product to our clients.",
+        "business5": "Based on specific needs of our clients our job is to",
+        "business55": " identify suppliers globally.",
+        "business555": " Once the product is identified our goal is to stablish and end to end supply chain that delivers the product to our clients.",
         "business6": "Our",
         "business7": "MISSION",
         "business8": " To offer our commercial and logistics infrastructure to guarantee a constant and efficient supply of quality products throughout diverse distribution channels with a strategic process, leading edge technology and around the clock customer service.",
@@ -58,7 +69,8 @@
         "contact2": "CONTACT US",
         "contact3": "our",
         "contact4": "SOCIAL NETWORKS",
-        "contactd": "If you would like to have more information please contact us by phone, email or chat."
+        "contactd": "If you would like to have more information please contact us by",
+        "contactd1": " phone, email or chat."
     },
 
     "footer": {

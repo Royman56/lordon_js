@@ -6,12 +6,12 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
   const [t, i18n] = useTranslation("global");
   return (
     <Fragment>
-      <section className={sectionClass}>
+      <section className="bg-body">
         <Container>
           <Row>
             <Col md="12">
               <div className={title}>
-                <h2 className="text-center text-red">{t("contact.contact2")}</h2>
+                <h2 className="text-center  text-blue-three underline">{t("contact.contact2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -20,10 +20,11 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
                   </div>
                 )}
               </div>
+              <br></br>
               <Row>
                 <Col lg="6" className="m-auto">
                   <div className="product-para">
-                    <p className="text-center text-blue">{t("contact.contactd")}</p>
+                    <p className="text-center text-blue">{t("contact.contactd")}<span className="text-red">{t("contact.contactd1")}</span></p>
                   </div>
                 </Col>
               </Row>
@@ -38,9 +39,6 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
 
         </Container>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
     </Fragment>
 
 

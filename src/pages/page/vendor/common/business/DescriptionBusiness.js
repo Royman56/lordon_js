@@ -19,12 +19,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
     ];
     return (
         <Fragment>
-            <section className={sectionClass}>
+            <section className="bg-body">
                 <Container>
                     <Row>
                         <Col md="12">
                             <div className="text-center">
-                                <h1 className="text-red">{t("business.business2")}</h1>
+                                <h1 className="text-blue-second underline">{t("business.business2")}</h1>
 
                             </div>
 
@@ -43,6 +43,8 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                         <h1 className="text-red box-p">{t("business.business4")}</h1>
                                         <p className="text-blue box-p2">
                                             {t("business.business5")}
+                                            <span className="text-red">{t("business.business55")}</span>
+                                            <span className="text-blue">{t("business.business555")}</span>
                                         </p>
 
                                     </div>
@@ -130,7 +132,6 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                         </Col>
                     </Row>
                 </Container>
-                <br></br>
             </section>
         </Fragment>
 

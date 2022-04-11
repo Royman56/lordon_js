@@ -23,9 +23,17 @@
         "category9": "Productos",
         "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         "category4": "Ver Catálogo",
-        "category5": "Comercializamos y Distribuimos productos nacionales e internacionales",
-        "category6": "Somos una organización empresarial especializada en la distribución y comercialización de productos nacionales e internacionales en el mercado del retail. Nuestros productos son prácticos y accesibles con énfasis en su calidad al mejor precio.",
-        "category7": "En LORDON siempre estamos con una disposición a innovar, cuestionar y desafiar, tomando decisiones estratégicas inspiradas en una visión global, teniendo como foco principal las necesidades del usuario final."
+        "category5": "Comercializamos y Distribuimos",
+        "category55": " productos nacionales e internacionales",
+        "category6": "Somos una organización empresarial",
+        "category66": " especializada en la distribución y comercialización",
+        "category667": " de productos nacionales e internacionales en el mercado del retail. Nuestros productos son prácticos y accesibles con énfasis en su calidad al mejor precio.",
+        "category7": "En",
+        "category77": " LORDON",
+        "category777": " siempre estamos con una disposición a",
+        "category7777": " innovar, cuestionar y desafiar",
+        "category77777": " tomando decisiones estratégicas inspiradas en una visión global, teniendo como foco principal",
+        "category78": " las necesidades del usuario final."
     },
 
     "parallax": {
@@ -42,7 +50,9 @@
         "business1": "Nosotros",
         "business2": "¿QUIÉNES SOMOS?",
         "business4": "¿QUÉ HACEMOS?",
-        "business5": "De acuerdo a las necesidades específicas de cada cliente nuestra tarea es identificar proveedores en el mercado global. Una vez identificado el producto, nuestra misión es crear una cadena de suministro “end to end” entregando dicho producto al cliente.",
+        "business5": "De acuerdo a las necesidades específicas de cada cliente nuestra tarea es",
+        "business55": " identificar proveedores en el mercado global.",
+        "business555": " Una vez identificado el producto, nuestra misión es crear una cadena de suministro “end to end” entregando dicho producto al cliente.",
         "business6": "Nuestra",
         "business7": "MISIÓN",
         "business8": "Ofrecer nuestra infraestructura comercial y de logística, a fin de garantizar de manera permanente y eficiente, el suministro adecuado de productos de calidad en los diferentes canales de distribución, con procesos estratégicos, tecnología de punta y soporte en todo momento.",
@@ -58,7 +68,8 @@
         "contact2": "CONTÁCTANOS",
         "contact3": "Nuestras",
         "contact4": "REDES SOCIALES",
-        "contactd": "Para cualquier duda o mayor información favor de contactarnos por teléfono, correo o chat."
+        "contactd": "Para cualquier duda o mayor información favor de contactarnos por",
+        "contactd1": " teléfono, correo o chat."
     },
 
     "footer": {

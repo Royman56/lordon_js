@@ -46,8 +46,15 @@
 /*=====================
     1.General CSS start
 ==========================*/
+@font-face {
+  font-family: 'DIN Medium';
+  src: url(../../fonts/DINMedium.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 body {
-  font-family: $font_0, $font_1;
+  font-family: DIN Medium;
   position: relative;
   background: $white;
   font-size: 14px;
@@ -739,6 +746,25 @@ button {
 .text-blue {
   color: #003594;
   font-size: 1.5rem;
+}
+
+.text-red-three {
+  color: #cb2c30;
+  font-size: 1.5rem;
+}
+
+.text-red-second{
+  color: #cb2c30;
+  font-size: 2rem;
+}
+
+.text-blue-three{
+  color: #003594;
+  font-size: 3rem;
+}
+
+.text-blue-second {
+  color: #003594;
 }
 
 .btn-solid {
@@ -1509,7 +1535,7 @@ header {
       color: $header-font;
       padding: 15px 25px;
       padding-right: 20px;
-      font-size: 14px;
+      font-size: 18px;
 
       &:first-child {
         padding-right: 0;
@@ -2419,15 +2445,15 @@ header {
 }
 
 .lang-es {
-  /*background-image: url("../../images/español.png");
-  background-size: cover;*/
+  background-image: url("../../images/español.png");
+  background-size: cover;
   color: white;
 }
 
 .lang-en {
   color: white;
-  /*background-image: url("../../images/ingles.svg");
-  background-size: cover;*/
+  background-image: url("../../images/usa.png");
+  background-size: cover;
 }
 
 .lang-text {
@@ -16453,10 +16479,18 @@ table {
 }
 
 .img-round {
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
+  border-radius: 5%;
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #cb2c30;
+  text-underline-offset: 20%;
+}
+
+.bg-body{
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
 }
 
   video#background-video {
