@@ -76,7 +76,7 @@ const MasterFooter = ({
                   <div className="footer-contant">
                     <div className="footer-logo">
                     <Link to='/'>
-                      <img src={logo} alt="" topClass="top-header" />
+                      <img src={logo} alt="" topClass="top-header" className="phone" />
                       </Link>
                     </div>
                     
@@ -85,21 +85,21 @@ const MasterFooter = ({
                       <li>
                           <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
                           <img
-                            src={face} width="36" />
+                            src={face} width="48" className="phone"/>
                           </a>
                         </li>
 
                         <li>
                           <a href="https://www.facebook.com" target="_blank">
                           <img
-                            src={insta} width="36" />
+                            src={insta} width="48" className="phone"/>
                           </a>
                         </li>
               
                         <li>
                           <a href="https://www.instagram.com" target="_blank">
                           <img
-                            src={tweet} width="36" />
+                            src={tweet} width="48" className="phone"/>
                           </a>
                         </li>
 

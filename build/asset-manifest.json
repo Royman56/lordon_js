@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lordon_js/static/css/main.5588b845.css",
-    "main.js": "/lordon_js/static/js/main.d2d5816a.js",
+    "main.css": "/lordon_js/static/css/main.fda8e2ac.css",
+    "main.js": "/lordon_js/static/js/main.a5485ed6.js",
     "static/js/193.32bb2404.chunk.js": "/lordon_js/static/js/193.32bb2404.chunk.js",
     "static/media/1.jpg": "/lordon_js/static/media/1.4c2c51e44af4c41f4dc4.jpg",
     "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
@@ -82,12 +82,12 @@
     "static/media/slick.ttf": "/lordon_js/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lordon_js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lordon_js/index.html",
-    "main.5588b845.css.map": "/lordon_js/static/css/main.5588b845.css.map",
-    "main.d2d5816a.js.map": "/lordon_js/static/js/main.d2d5816a.js.map",
+    "main.fda8e2ac.css.map": "/lordon_js/static/css/main.fda8e2ac.css.map",
+    "main.a5485ed6.js.map": "/lordon_js/static/js/main.a5485ed6.js.map",
     "193.32bb2404.chunk.js.map": "/lordon_js/static/js/193.32bb2404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5588b845.css",
-    "static/js/main.d2d5816a.js"
+    "static/css/main.fda8e2ac.css",
+    "static/js/main.a5485ed6.js"
   ]
 }

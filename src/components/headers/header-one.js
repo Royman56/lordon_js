@@ -59,7 +59,7 @@ const HeaderOne = ({
 
             <nav className='navbar'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={`/assets/images/icon/logo.png`} alt="" />
+            <img src={`/assets/images/icon/logo.png`} alt=""  className="phone"/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
