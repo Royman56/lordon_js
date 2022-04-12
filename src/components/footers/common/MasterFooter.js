@@ -10,7 +10,9 @@ import {
   Button,
   Collapse,
 } from "reactstrap";
-import LogoImage from "../../headers/common/logo";
+import face from "../../../assets/images/face.jpg";
+import insta from "../../../assets/images/instagram.png";
+import tweet from "../../../assets/images/tweet.png";
 import CopyRight from "./copyright";
 import { useTranslation } from "react-i18next";
 import logo from "../../../assets/images/icon/logo.png";
@@ -82,30 +84,30 @@ const MasterFooter = ({
                       <ul>
                       <li>
                           <a href="https://api.whatsapp.com/send?phone=52123456789&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20..." target="_blank">
-                            <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                          <img
+                            src={face} width="36" />
                           </a>
                         </li>
 
                         <li>
                           <a href="https://www.facebook.com" target="_blank">
-                            <i
-                              className="fa fa-facebook"
-                              aria-hidden="true"
-                            ></i>
+                          <img
+                            src={insta} width="36" />
                           </a>
                         </li>
               
                         <li>
                           <a href="https://www.instagram.com" target="_blank">
-                            <i
-                              className="fa fa-instagram"
-                              aria-hidden="true"
-                            ></i>
+                          <img
+                            src={tweet} width="36" />
                           </a>
                         </li>
 
                       </ul>
+
                     </div>
+              
+                      {/*<h2 className="text-red">Síguenos</h2>*/}
                   </div>
                 </Collapse>
               </Col>

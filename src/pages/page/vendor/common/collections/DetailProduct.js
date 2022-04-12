@@ -131,15 +131,15 @@ const DetailProduct = (props) => {
 
                           </del>
                         </h4>
-                        <h3>
+                        <h2>
                           {product.price_product}
-                        </h3>
+                        </h2>
 
 
 
                         <div className="border-product">
-                          <h6 className="product-title">{t("business.business12")}</h6>
-                          <p>{product.meta_description}</p>
+                          <h3 className="product-title">{t("business.business12")}</h3>
+                          <h3>{product.meta_description}</h3>
                         </div>
 
                         <div className="border-product">
@@ -174,12 +174,12 @@ const DetailProduct = (props) => {
                           </Nav>
                           <TabContent activeTab={activeTab} className="nav-material">
                             <TabPane tabId="1">
-                            
-                                  <h5 className="parrafo space-btm">
+                              <br></br>
+                                  <h4 className="space-btm">
 
                                     {product.description_product}
 
-                                  </h5>
+                                  </h4>
 
                             </TabPane>
 

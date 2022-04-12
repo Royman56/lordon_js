@@ -2448,6 +2448,16 @@ header {
   background-image: url("../../images/español.png");
   background-size: cover;
   color: white;
+  margin: 0 6px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 372px) { 
+  .lang-es {
+    background-image: url("../../images/español.png");
+    background-size: cover;
+    color: white;
+    margin: 0 0px;
+  }
 }
 
 .lang-en {
@@ -2660,6 +2670,7 @@ padding-top: 3rem;
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav-items {
@@ -2669,7 +2680,7 @@ padding-top: 3rem;
 }
 
 .nav-links {
-  color: #cb2c30;
+  color: #003594;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -8718,6 +8729,7 @@ footer {
   &.text-center {
     img {
       margin: 0 auto;
+      max-width: 100%;
     }
   }
 }
@@ -12067,8 +12079,9 @@ footer {
         .nav-link {
           color: #212121;
           text-align: center;
-          padding: 0 15px 20px 15px;
+          padding: 0 15px 20px 10px;
           text-transform: uppercase;
+          font-size: 22px;
           border: 0;
           cursor: pointer;
           border-bottom: 2px solid transparent;
