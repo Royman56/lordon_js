@@ -6,7 +6,8 @@ import LogoImage from "./common/logo";
 import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import Dropdown from '../headers/Dropdown';
-import logo from "../../assets/images/icon/logo1.png";
+//import logo from "../../assets/images/icon/logo1.png";
+import logo from "../../assets/images/tweet.png";
 
 const HeaderOne = ({
   logoName,

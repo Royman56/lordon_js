@@ -15,7 +15,7 @@ import insta from "../../../assets/images/instagram.png";
 import tweet from "../../../assets/images/tweet.png";
 import CopyRight from "./copyright";
 import { useTranslation } from "react-i18next";
-import logo from "../../../assets/images/icon/logo1.png";
+import logo from "../../../assets/images/icon/tweet.png";
 
 const MasterFooter = ({
   containerFluid,
