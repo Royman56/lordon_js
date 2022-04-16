@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import Dropdown from '../headers/Dropdown';
 //import logo from "../../assets/images/icon/logo1.png";
-import logo from "../../assets/images/tweet.png";
+import logo from "../../assets/images/icon/logo1.png";
 
 const HeaderOne = ({
   logoName,
@@ -65,7 +65,7 @@ const HeaderOne = ({
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
         </div>
-        <img src={logo} alt="" topClass="top-header" />
+        <img src={logo} alt="" className="phone" width="100"/>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-items'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
