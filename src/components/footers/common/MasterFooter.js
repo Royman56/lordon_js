@@ -76,7 +76,7 @@ const MasterFooter = ({
                   <div className="footer-contant">
                     <div className="footer-logo">
                     <Link to='/'>
-                      <img src={logo} alt="" topClass="top-header" className="phone" />
+                      <img src={logo} alt="" className="phone"/>
                       </Link>
                     </div>
                     
