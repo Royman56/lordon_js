@@ -60,12 +60,12 @@ const HeaderOne = ({
 
             <nav className='navbar'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={`/assets/images/icon/logo.png`} alt=""  className="phone" width="100"/>
+            <img src={`/assets/images/icon/logo.png`} alt=""  className="phone img-fluid" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
         </div>
-        <img src={logo} alt="" className="phone" width="100"/>
+        <img src={logo} alt="" topClass="top-header" className="phone img-fluid"/>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-items'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
