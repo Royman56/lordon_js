@@ -87,6 +87,33 @@ h1 {
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 400px) { 
+  h1 {
+    font-size: 35px;
+    color: $dark-font;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) { 
+  h1 {
+    font-size: 42px;
+    color: $dark-font;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 650px) { 
+  h1 {
+    font-size: 46px;
+    color: $dark-font;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
 h2 {
   font-size: 36px;
   color: $dark-font;
@@ -139,6 +166,7 @@ p {
   font-size: 18px;
   color: $grey;
   line-height: 1;
+  display: block;
 }
 
 a {
@@ -748,6 +776,22 @@ button {
   font-size: 1.5rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 400px) { 
+  .text-blue {
+    color: #003594;
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) { 
+  .text-blue {
+    color: #003594;
+    font-size: 32px;
+  }
+
+}
+
 .text-red-three {
   color: #cb2c30;
   font-size: 1.5rem;
@@ -758,6 +802,22 @@ button {
   font-size: 2rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 400px) { 
+  .text-red-second{
+    color: #cb2c30;
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) { 
+  .text-red-second{
+    color: #cb2c30;
+    font-size: 24px;
+  }
+
+}
+
 .text-blue-three{
   color: #003594;
   font-size: 3rem;
@@ -765,6 +825,29 @@ button {
 
 .text-blue-second {
   color: #003594;
+}
+
+.text-blue-ford {
+  color: #003594;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) { 
+  .text-blue-second {
+    color: #003594;
+    font-size: 22px;
+  }
+  
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) { 
+  .text-blue-second {
+    color: #003594;
+    font-size: 24px;
+  }
+  
+
 }
 
 .btn-solid {
@@ -2598,10 +2681,58 @@ padding-top: 3rem;
     h1{
         font-size: 3rem;
         font-weight: 600;
-        @media screen and (max-width: 700px){
-            font-size: 3rem;
-        }
     }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) { 
+  .left-content-business{
+    display: flex;
+    align-items: center;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    .white-text{
+        color:black;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) { 
+  .left-content-business{
+    display: flex;
+    align-items: center;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    .white-text{
+        color:black;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 42px;
+        font-weight: 600;
+    }
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 650px) { 
+  .left-content-business{
+    display: flex;
+    align-items: center;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    .white-text{
+        color:black;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 46px;
+        font-weight: 600;
+    }
+}
 }
 
 .right-content{

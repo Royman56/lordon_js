@@ -24,7 +24,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                     <Row>
                         <Col md="12">
                             <div className="text-center">
-                                <h1 className="text-blue-second underline">{t("business.business2")}</h1>
+                                <h1 className="text-blue-ford underline">{t("business.business2")}</h1>
 
                             </div>
 
