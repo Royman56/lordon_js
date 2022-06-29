@@ -2,10 +2,44 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from "reactstrap";
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/router";
+import Dropdown from '../../headers/Dropdown';
 
 const TopBarDark = ({ topClass, fluid }) => {
-
   const [t, i18n] = useTranslation("global");
+  const router = useRouter();
+
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  
+  useEffect(() => {
+    setTimeout(function () {
+      document.querySelectorAll(".loader-wrapper").style = "display:none";
+    }, 2000);
+
+    if (router !== "/layouts/Christmas")
+      window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    let number =
+      window.pageXOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop ||
+      0;
+    if (number >= 300) {
+      if (window.innerWidth < 576)
+        document.getElementById("sticky").classList.remove("fixed");
+      else document.getElementById("sticky").classList.add("fixed");
+    } else document.getElementById("sticky").classList.remove("fixed");
+  };
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   return (
     <div className={topClass}>
@@ -32,19 +66,7 @@ const TopBarDark = ({ topClass, fluid }) => {
             </ul>
             </div>
           </Col>
-          <Col className="text-right">
-            <ul className="header-dropdown">
-              <li className="mobile-account-user">
-              <Button className="lang-es lang-text lang-btn" onClick={() => i18n.changeLanguage("es")}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </Button>
-                <Button className="lang-en lang-text lang-btn" onClick={() => i18n.changeLanguage("en")}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </Button>
-                </li>
-         
-            </ul>
-          </Col>
+          
         </Row>
       </Container>
     </div>

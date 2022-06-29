@@ -1,7 +1,7 @@
 {
     "header-one": {
         "menu1": "Inicio",
-        "menu5": "Buscar",
+        "menu5": "Buscar...",
         "menu6": "Iniciar Sesión",
         "menu7": "Contraseña",
         "menu8": "Ingrese Email",
@@ -12,18 +12,18 @@
     },
 
     "view-category": {
-        "category0": "Cargando Categorias...",
+        "category0": "Cargando Categorías...",
         "category10": "Cargando Productos...",
-        "category11": "Cargando Sub Categorias...",
+        "category11": "Cargando Sub Categorías...",
         "category12": "Ningúna Sub Categoria Para Mostrar En",
         "category13": "Ningún Producto Para Mostrar En",
         "category1": "variedad y calidad",
-        "category2": "Categorias",
+        "category2": "Categorías",
         "category8": "Subcategorias",
         "category9": "Productos",
         "category3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         "category4": "Ver Catálogo",
-        "category5": "Comercializamos y Distribuimos",
+        "category5": "Comercializamos y distribuimos",
         "category55": " productos nacionales e internacionales",
         "category6": "Somos una organización empresarial",
         "category66": " especializada en la distribución y comercialización",
@@ -48,15 +48,15 @@
 
     "business": {
         "business1": "Nosotros",
-        "business2": "¿QUIÉNES SOMOS?",
-        "business4": "¿QUÉ HACEMOS?",
+        "business2": "¿Quiénes somos?",
+        "business4": "¿Qué hacemos?",
         "business5": "De acuerdo a las necesidades específicas de cada cliente nuestra tarea es",
         "business55": " identificar proveedores en el mercado global.",
         "business555": " Una vez identificado el producto, nuestra misión es crear una cadena de suministro “end to end” entregando dicho producto al cliente.",
         "business6": "Nuestra",
-        "business7": "MISIÓN",
+        "business7": "Misión",
         "business8": "Ofrecer nuestra infraestructura comercial y de logística, a fin de garantizar de manera permanente y eficiente, el suministro adecuado de productos de calidad en los diferentes canales de distribución, con procesos estratégicos, tecnología de punta y soporte en todo momento.",
-        "business9": "VALORES",
+        "business9": "Valores",
         "business10": "Consolidarnos como la Empresa líder en la Distribución y Logística de productos de consumo tanto para el hogar como consumo masivo, satisfaciendo las necesidades del cliente a través de la calidad de nuestros productos, de servicio personalizado, mercadeo, eficiencia y rentabilidad manteniendo y creciendo nuestras alianzas comerciales.",
         "business11": "¡Me Interesa!",
         "business12": "Detalles del producto",
@@ -65,9 +65,9 @@
 
     "contact": {
         "contact1": "Información",
-        "contact2": "CONTÁCTANOS",
+        "contact2": "Contáctanos",
         "contact3": "Nuestras",
-        "contact4": "REDES SOCIALES",
+        "contact4": "Redes sociales",
         "contactd": "Para cualquier duda o mayor información favor de contactarnos por",
         "contactd1": " teléfono, correo o chat."
     },

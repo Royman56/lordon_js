@@ -24,7 +24,7 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                     <Row>
                         <Col md="12">
                             <div className="text-center">
-                                <h1 className="text-blue-ford underline">{t("business.business2")}</h1>
+                                <h2 className="text-blue-ford">{t("business.business2")}</h2>
 
                             </div>
 
@@ -40,12 +40,14 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                        <h1 className="text-red box-p">{t("business.business4")}</h1>
+                                        <h2 className="text-red box-p">{t("business.business4")}</h2>
+                                        <div className="product-para">
                                         <p className="text-blue box-p2">
                                             {t("business.business5")}
-                                            <span className="text-red">{t("business.business55")}</span>
+                                            <span className="text-blue">{t("business.business55")}</span>
                                             <span className="text-blue">{t("business.business555")}</span>
                                         </p>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -73,10 +75,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
 
                          
                                 <div className="left-text-container">
-                                        <h1 className="text-red box-p">{t("business.business7")}</h1>
+                                        <h2 className="text-red box-p">{t("business.business7")}</h2>
+                                        <div className="product-para">
                                         <p className="text-blue box-p2">
                                             {t("business.business8")}
                                         </p>
+                                        </div>
 
                                  
                                 </div>
@@ -89,10 +93,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                    <h1 className="text-red box-p">{t("business.business7")}</h1>
+                                    <h2 className="text-red box-p">{t("business.business7")}</h2>
+                                    <div className="product-para">
                                         <p className="text-blue box-p2">
                                             {t("business.business8")}
                                         </p>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -115,11 +121,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                             <div className="description-business">
                                 <div className="left-content-business">
                                     <div className="left-text-container">
-                                        <h1 className="text-red box-p">{t("business.business9")}</h1>
+                                        <h2 className="text-red box-p">{t("business.business9")}</h2>
+                                        <div className="product-para">
                                         <p className="text-blue box-p2 ">
                                             {t("business.business10")}
                                         </p>
-
+                                        </div>
                                     </div>
                                 </div>
 

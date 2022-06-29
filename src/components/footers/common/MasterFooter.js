@@ -54,7 +54,7 @@ const MasterFooter = ({
 
         <section className={belowSection}>
           <Container fluid={belowContainerFluid ? belowContainerFluid : ""}>
-            <Row className="footer-theme partition-f">
+            <Row className="footer-theme partition-f button-tp">
               <Col lg="4" md="6">
                 <div
                   className={`footer-title ${isOpen && collapse == 1 ? "active" : ""

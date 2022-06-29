@@ -102,7 +102,7 @@ const ViewFullCategory = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-                <h2 className="text-center text-blue-three underline">{t("view-category.category2")}</h2>
+                <h2 className="text-center text-blue-three">{t("view-category.category2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (

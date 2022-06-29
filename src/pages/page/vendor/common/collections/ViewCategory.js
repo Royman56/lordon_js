@@ -55,7 +55,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
                 <br></br>
                 <div className="blog-details" onClick={ClickHandler}>
 
-                  <h3 className="h3-definity text-blue-second">{item.name}</h3>
+                  <h3 className="h3-definity text-blue-three">{item.name}</h3>
                   <br></br>
 
                 </div>
@@ -77,46 +77,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-                <h2 className="text-center text-red-second">{t("view-category.category5")}</h2>
-                <h2 className="text-center text-blue-second">{t("view-category.category55")}</h2>
-
-                {hrClass ? (
-                  <hr role="tournament6"></hr>
-                ) : (
-                  <div className="line">
-                    <span></span>
-                  </div>
-                )}
-              </div>
-              <br></br>
-              <Row>
-                <Col lg="12" className="m-auto">
-                  <div className="product-para">
-                    <p className="text-center">
-                      <span className="text-blue">{t("view-category.category6")}</span>
-                      <span className="text-red-three">{t("view-category.category66")}</span>
-                      <span className="text-blue">{t("view-category.category667")}</span></p>
-                    <p className="text-center">
-                      <span className="text-blue">{t("view-category.category7")}</span>
-                      <span className="text-red-three">{t("view-category.category77")}</span>
-                      <span className="text-blue">{t("view-category.category777")}</span>
-                      <span className="text-red-three">{t("view-category.category7777")}</span>
-                      <span className="text-blue">{t("view-category.category77777")}</span>
-                      <span className="text-center text-blue">{t("view-category.category78")}</span></p>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-
-        </Container>
-        <br></br>
-        <br></br>
-        <Container>
-          <Row>
-            <Col md="12">
-              <div className={title}>
-                <h1 className="text-center text-blue-three underline">{t("view-category.category2")}</h1>
+                <h2 className="text-center text-blue-three">{t("view-category.category2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -129,7 +90,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
               <br></br>
               <br></br>
               <br></br>
-              <Slider {...Slider2} className="slide-2 slick-arrow text-center" autoplay={10000}>
+              <Slider {...Slider2} className="slide-2 slick-arrow text-center">
                 {showCategoryList}
               </Slider>
 
@@ -153,6 +114,45 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
             </Col>
           </Row>
         </Container>
+        <Container>
+          <Row>
+            <Col md="12">
+              <div className={title}>
+                <h2 className="text-center text-red-second">{t("view-category.category5")}</h2>
+                <h2 className="text-center text-red-second">{t("view-category.category55")}</h2>
+
+                {hrClass ? (
+                  <hr role="tournament6"></hr>
+                ) : (
+                  <div className="line">
+                    <span></span>
+                  </div>
+                )}
+              </div>
+              <br></br>
+              <Row>
+                <Col lg="12" className="m-auto">
+                  <div className="product-para">
+                    <p className="text-center">
+                      <span className="text-blue">{t("view-category.category6")}</span>
+                      <span className="text-blue">{t("view-category.category66")}</span>
+                      <span className="text-blue">{t("view-category.category667")}</span></p>
+                    <p className="text-center">
+                      <span className="text-blue">{t("view-category.category7")}</span>
+                      <span className="text-blue">{t("view-category.category77")}</span>
+                      <span className="text-blue">{t("view-category.category777")}</span>
+                      <span className="text-blue">{t("view-category.category7777")}</span>
+                      <span className="text-blue">{t("view-category.category77777")}</span>
+                      <span className="text-center text-blue">{t("view-category.category78")}</span></p>
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+
+        </Container>
+        <br/>
+        <br/>
       </section>
     </Fragment>
 

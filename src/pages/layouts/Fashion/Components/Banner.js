@@ -42,7 +42,7 @@ const Banner = () => {
   return (
     <Fragment>
       <section className="p-0">
-        <Slider className="slide-1 home-slider" autoplay={5000}>
+        <Slider className="slide-1 home-slider">
           {Data.map((data, i) => {
             return (
               <MasterBanner

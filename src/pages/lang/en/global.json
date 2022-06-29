@@ -1,7 +1,7 @@
 {
     "header-one": {
         "menu1": "Home",
-        "menu5": "Search",
+        "menu5": "Search...",
         "menu6": "Login",
         "menu7": "Password",
         "menu8": "Enter Email",
@@ -49,15 +49,15 @@
 
     "business": {
         "business1": "Us",
-        "business2": "ABOUT US?",
-        "business4": "OUR CORE BUSINESS",
+        "business2": "About us?",
+        "business4": "Our core business",
         "business5": "Based on specific needs of our clients our job is to",
         "business55": " identify suppliers globally.",
         "business555": " Once the product is identified our goal is to stablish and end to end supply chain that delivers the product to our clients.",
         "business6": "Our",
-        "business7": "MISSION",
+        "business7": "Mission",
         "business8": " To offer our commercial and logistics infrastructure to guarantee a constant and efficient supply of quality products throughout diverse distribution channels with a strategic process, leading edge technology and around the clock customer service.",
-        "business9": "VALUES",
+        "business9": "Values",
         "business10": "Establish ourselves as leaders in the delivery of household and mass merchandised consumer products, meeting all customer needs thanks to the quality of our products, customer service, marketing expertise, efficiency and profitability, maintaining and growing our commercial and strategic alliances.",
         "business11": "I'm interested!",
         "business12": "Product Details",
@@ -66,9 +66,9 @@
 
     "contact": {
         "contact1": "Information",
-        "contact2": "CONTACT US",
+        "contact2": "Contact us",
         "contact3": "our",
-        "contact4": "SOCIAL NETWORKS",
+        "contact4": "Social networks",
         "contactd": "If you would like to have more information please contact us by",
         "contactd1": " phone, email or chat."
     },

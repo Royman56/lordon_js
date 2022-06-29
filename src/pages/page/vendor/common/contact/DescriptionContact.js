@@ -11,7 +11,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
           <Row>
             <Col md="12">
               <div className={title}>
-                <h2 className="text-center  text-blue-three underline">{t("contact.contact2")}</h2>
+                <h2 className="text-center  text-blue-three">{t("contact.contact2")}</h2>
                 {hrClass ? (
                   <hr role="tournament6"></hr>
                 ) : (
@@ -24,7 +24,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
               <Row>
                 <Col lg="6" className="m-auto">
                   <div className="product-para">
-                    <p className="text-center text-blue">{t("contact.contactd")}<span className="text-red">{t("contact.contactd1")}</span></p>
+                    <p className="text-center text-blue">{t("contact.contactd")}<span>{t("contact.contactd1")}</span></p>
                   </div>
                 </Col>
               </Row>
