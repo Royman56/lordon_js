@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lordon_js/static/css/main.db238f05.css",
-    "main.js": "/lordon_js/static/js/main.0dc9c74d.js",
+    "main.css": "/lordon_js/static/css/main.5c545e68.css",
+    "main.js": "/lordon_js/static/js/main.3243b95d.js",
     "static/js/193.32bb2404.chunk.js": "/lordon_js/static/js/193.32bb2404.chunk.js",
     "static/media/1.jpg": "/lordon_js/static/media/1.4c2c51e44af4c41f4dc4.jpg",
     "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
@@ -10,7 +10,6 @@
     "static/media/4.jpg": "/lordon_js/static/media/4.ec947b3ac841f8d25fbd.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/17.png": "/lordon_js/static/media/17.9294ffc06effc0ee4410.png",
-    "static/media/bg.jpg": "/lordon_js/static/media/bg.71795832274abeb97b4d.jpg",
     "static/media/usa.png": "/lordon_js/static/media/usa.7e6b021ca79f2eba884c.png",
     "static/media/vision.png": "/lordon_js/static/media/vision.dca684b33d45c9ee6680.png",
     "static/media/instagram.png": "/lordon_js/static/media/instagram.e2cb0503234d56776d16.png",
@@ -18,7 +17,7 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/quesomos.png": "/lordon_js/static/media/quesomos.8820b7492eac80aa3903.png",
     "static/media/mision.png": "/lordon_js/static/media/mision.bcee3839a9c3aaf41b44.png",
-    "static/media/español.png": "/lordon_js/static/media/español.0a0c336b1d6398696476.png",
+    "static/media/español.png": "/lordon_js/static/media/español.fdd2552f9b324d31e2b7.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/offer-banner.jpg": "/lordon_js/static/media/offer-banner.a22de12e6b4c3e2e1c77.jpg",
@@ -74,8 +73,8 @@
     "static/media/quienessomos.png": "/lordon_js/static/media/quienessomos.f3f99a501c64e9609476.png",
     "static/media/45.jpg": "/lordon_js/static/media/45.787fa3cd666b4746764c.jpg",
     "static/media/46.jpg": "/lordon_js/static/media/46.787fa3cd666b4746764c.jpg",
-    "static/media/DINMedium.ttf": "/lordon_js/static/media/DINMedium.ac50005d97791c65cf3e.ttf",
     "static/media/42.jpg": "/lordon_js/static/media/42.2169d27aa8797304842b.jpg",
+    "static/media/Metropolis-Medium.otf": "/lordon_js/static/media/Metropolis-Medium.cdcce86268fb4a504ff5.otf",
     "static/media/face.jpg": "/lordon_js/static/media/face.7f96bf14b2d32e72a3f3.jpg",
     "static/media/2.png": "/lordon_js/static/media/2.6f279a08006f77c4027e.png",
     "static/media/user2.png": "/lordon_js/static/media/user2.95d305c0017cb2089cb5.png",
@@ -86,12 +85,12 @@
     "static/media/slick.ttf": "/lordon_js/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lordon_js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lordon_js/index.html",
-    "main.db238f05.css.map": "/lordon_js/static/css/main.db238f05.css.map",
-    "main.0dc9c74d.js.map": "/lordon_js/static/js/main.0dc9c74d.js.map",
+    "main.5c545e68.css.map": "/lordon_js/static/css/main.5c545e68.css.map",
+    "main.3243b95d.js.map": "/lordon_js/static/js/main.3243b95d.js.map",
     "193.32bb2404.chunk.js.map": "/lordon_js/static/js/193.32bb2404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db238f05.css",
-    "static/js/main.0dc9c74d.js"
+    "static/css/main.5c545e68.css",
+    "static/js/main.3243b95d.js"
   ]
 }
