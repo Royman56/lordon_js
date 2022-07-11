@@ -39,7 +39,7 @@ const ViewFullCategory = ({ sectionClass, title, inner, hrClass }) => {
     return () => {
       isMountered = false;
     }
-  });
+  },[]);
 
   if (loading) {
 
@@ -54,11 +54,11 @@ const ViewFullCategory = ({ sectionClass, title, inner, hrClass }) => {
       category.map((item, idx) => {
         return (
 
-          <div className="col-md-6" key={idx}>
+          <div className="col-12 col-sm-6 col-md-4" key={idx}>
             <Link to={`/viewfullcategory/${item.slug}`}>
 
               <div className="collection-banner">
-                <Container className="col-md-6">
+                <Container className="col-12 col-md-10">
                   <Row>
                     <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} className="image-fluid img-round" alt={item.image} />
                   </Row>

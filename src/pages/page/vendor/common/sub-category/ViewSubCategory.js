@@ -61,11 +61,11 @@ const ViewSubCategory = () => {
       subcategory.map((item, idx) => {
         return (
 
-          <div className="col-md-6 button-tp button-mrg" key={idx}>
+          <div className="col-12 col-sm-6 col-md-4 button-tp button-mrg" key={idx}>
             <Link to={`/collections/${item.slug}`}>
            
                 <div className="collection-banner">
-                  <Container className="col-md-6">
+                  <Container className="col-12 col-md-10">
                     <Row>
                       <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image}`} className="image-fluid img-round" alt={item.image} />
                     </Row>

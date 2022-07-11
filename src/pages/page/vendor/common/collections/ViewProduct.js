@@ -70,13 +70,13 @@ const ViewProduct = (props) => {
       showProductList =
         product.map((item, idx) => {
           return (
-            <div className="col-md-6" key={idx}>
+            <div className="col-12 col-sm-6 col-md-4" key={idx}>
               <Link to={`/collections/${item.subcategory.slug}/${item.id}`}>
 
                 {/* <div className="col-md-4" key={idx}>*/}
 
                 <div className="collection-banner">
-                  <Container className="col-md-6">
+                  <Container className="col-12 col-md-10">
                     <Row>
                       <img src={`https://desolate-bayou-69148.herokuapp.com/${item.image1}`} className="image-fluid img-round" alt={item.name_product} />
                     </Row>

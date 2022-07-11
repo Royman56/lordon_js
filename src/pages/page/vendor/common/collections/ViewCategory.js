@@ -32,7 +32,7 @@ const ViewCategory = ({ sectionClass, title, inner, hrClass }) => {
     return () => {
       isMountered = false;
     }
-  });
+  },[]);
 
   if (loading) {
 
