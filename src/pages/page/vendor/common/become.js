@@ -25,6 +25,8 @@ const Become = () => {
 
       <ViewCategory />
 
+      <Parallax/>
+
       <MasterFooter
         footerClass={`footer-light`}
         footerLayOut={"light-layout upper-footer"}
