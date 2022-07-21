@@ -8,7 +8,24 @@
         "menu9": "Ingrese Contraseña",
         "menu2": "Catálogo",
         "menu3": "Empresa",
-        "menu4": "Contacto"
+        "menu4": "Contacto",
+        "banner": "B",
+        "bannerb": "elleza",
+        "banner1": "Cosméticos y productos de cuidado personal",
+        "banner2": "C",
+        "banner2b": "ocina",
+        "banner2c": "Productos y accesorios para la elaboración de alimentos",
+        "banner3": "S",
+        "banner3b": "alud",
+        "banner3c": "Productos para cuidar y mejorar la salud",
+        "businesst": "Ética",
+        "businesst1": "Servicio al",
+        "businesst11": "Cliente",
+        "businesst2": "Compromiso",
+        "businesst3": "Responsabilidad",
+        "businesst4": "Trabajo en",
+        "businesst44": "Equipo",
+        "businesst5": "Innovación"
     },
 
     "view-category": {

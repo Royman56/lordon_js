@@ -1,0 +1,3 @@
+- Textos de la base de datos
+- Imagenes traducidas
+- logo abarque todo el navbar y reducir el navbar

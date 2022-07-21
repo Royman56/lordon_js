@@ -4,41 +4,37 @@ import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import MasterBanner from "./MasterBanner";
 import "../../../../assets/scss/app.scss";
-
-const Data = [
-  {
-    img: "home1",
-    /*title: "bienvenidos",
-    desc: "la mejor moda para hombre y mujer",*/
-    link: "product-details/right_sidebar",
-  },
-  {
-    img: "home2",
-    /*title: "bienvenidos",
-    desc: "la mejor moda para hombre y mujer",*/
-    link: "product-details/right_sidebar",
-  },
-  {
-    img: "home3",
-    /*title: "bienvenidos",
-    desc: "la mejor moda para hombre y mujer",*/
-    link: "product-details/right_sidebar",
-  },
-  {
-    img: "home4",
-    /*title: "bienvenidos",
-    desc: "la mejor moda para hombre y mujer",*/
-    link: "product-details/right_sidebar",
-  },
-  {
-    img: "home5",
-    /*title: "bienvenidos",
-    desc: "la mejor moda para hombre y mujer",*/
-    link: "product-details/right_sidebar",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const [t, i18n] = useTranslation("global");
+  const Data = [
+    {
+      img: "home1",
+      titleone: `${t("header-one.banner")}`,
+      title: `${t("header-one.bannerb")}`,
+      desc: `${t("header-one.banner1")}`,
+      link: "product-details/right_sidebar",
+    },
+    {
+      img: "home2",
+      titleone: `${t("header-one.banner2")}`,
+      title: `${t("header-one.banner2b")}`,
+      desc: `${t("header-one.banner2c")}`,
+      link: "product-details/right_sidebar",
+    },
+    {
+      img: "home3",
+      titleone: `${t("header-one.banner3")}`,
+      title: `${t("header-one.banner3b")}`,
+      desc: `${t("header-one.banner3c")}`,
+      link: "product-details/right_sidebar",
+    },
+    {
+      img: "home4",
+      link: "product-details/right_sidebar",
+    },
+  ];
   return (
     <Fragment>
       <section className="p-0">
@@ -48,9 +44,10 @@ const Banner = () => {
               <MasterBanner
                 key={i}
                 img={data.img}
-                /*desc={data.desc}
-                title={data.title}*/
-                link={data.link}
+                //desc={data.desc}
+                title={data.title}
+                titleone={data.titleone}
+                /*link={data.link}*/
               />
             );
           })}

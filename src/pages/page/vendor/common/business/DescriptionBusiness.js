@@ -134,6 +134,12 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                 <div className="right-content">
                                     <img src={vision} alt="" className="phone image-fluid" />
                                 </div>
+                                <h4 className="business-img-txt">{t("header-one.businesst")}</h4>
+                                <h4 className="business-img-txt-two">{t("header-one.businesst1")}<br/>{t("header-one.businesst11")}</h4>
+                                <h4 className="business-img-txt-three">{t("header-one.businesst2")}</h4>
+                                <h4 className="business-img-txt-forth">{t("header-one.businesst3")}</h4>
+                                <h4 className="business-img-txt-five">{t("header-one.businesst4")}<br/>{t("header-one.businesst44")}</h4>
+                                <h4 className="business-img-txt-six">{t("header-one.businesst5")}</h4>
                             </div>
 
                         </Col>
