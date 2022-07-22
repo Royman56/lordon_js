@@ -83,7 +83,7 @@ const HeaderOne = ({
           </div>
           <div className="blog-details">
             <div style={{ color: "#000" }}>
-              <h4>{item.name_product}</h4>
+              <h4 className="h4-search">{item.name_product}</h4>
             </div>
 
             <h5 className="text-product">{item.price_product}</h5>

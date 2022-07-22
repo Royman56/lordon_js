@@ -80,7 +80,7 @@ const DetailProduct = (props) => {
   if (loading) {
 
     return <Container className="col-md-2">
-      <Row><h4 className="button-center">{t("view-category.category10")}</h4>
+      <Row><h4 className="button-center h4-search">{t("view-category.category10")}</h4>
       </Row>
     </Container>
 

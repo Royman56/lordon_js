@@ -56,7 +56,7 @@ const LinkFullCategory = (props) => {
   if (loading) {
 
     return <Container className="col-md-2">
-      <Row><h4 className="button-center">{t("view-category.category11")} </h4>
+      <Row><h4 className="button-center h4-search">{t("view-category.category11")} </h4>
       </Row>
     </Container>
 
@@ -101,7 +101,7 @@ const LinkFullCategory = (props) => {
       showSubCategoryList =
         <Container className="col-md-4">
           <Row>
-            <h4 className="button-center">{t("view-category.category12")} {category.name}</h4>
+            <h4 className="button-center h4-search">{t("view-category.category12")} {category.name}</h4>
             <img className="button-center" src={Sad} alt="sad" />
           </Row>
         </Container>

@@ -58,7 +58,7 @@ const ViewProduct = (props) => {
 
 
     return <Container className="col-md-2">
-      <Row><h4 className="button-center">{t("view-category.category10")} </h4>
+      <Row><h4 className="button-center h4-search">{t("view-category.category10")} </h4>
       </Row>
     </Container>
 
@@ -108,7 +108,7 @@ const ViewProduct = (props) => {
       showProductList =
         <Container className="col-md-4">
           <Row>
-            <h4 className="button-center">{t("view-category.category13")} {subcategory.name}</h4>
+            <h4 className="button-center h4-search">{t("view-category.category13")} {subcategory.name}</h4>
             <img className="button-center" src={Sad} alt="sad" />
           </Row>
         </Container>

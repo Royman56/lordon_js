@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/lordon_js/static/css/main.8b58236f.css",
-    "main.js": "/lordon_js/static/js/main.539f6b41.js",
+    "main.css": "/lordon_js/static/css/main.3ed0712e.css",
+    "main.js": "/lordon_js/static/js/main.b5b1f0e3.js",
     "static/js/193.32bb2404.chunk.js": "/lordon_js/static/js/193.32bb2404.chunk.js",
-    "static/media/1.jpg": "/lordon_js/static/media/1.55fdf0df00bde41ed1bf.jpg",
+    "static/media/1.jpg": "/lordon_js/static/media/1.2b1fc43780260d94b583.jpg",
+    "static/media/4.jpg": "/lordon_js/static/media/4.ec947b3ac841f8d25fbd.jpg",
+    "static/media/6.jpg": "/lordon_js/static/media/6.ec947b3ac841f8d25fbd.jpg",
+    "static/media/mision.png": "/lordon_js/static/media/mision.e08f15c3fdb4c0f5dc31.png",
+    "static/media/vision.png": "/lordon_js/static/media/vision.fdfdf7edbe0e4a5a8fc7.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
     "static/media/5.jpg": "/lordon_js/static/media/5.ec947b3ac841f8d25fbd.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
-    "static/media/3.jpg": "/lordon_js/static/media/3.daeee065d8fdd0cdc9c7.jpg",
     "static/media/17.png": "/lordon_js/static/media/17.9294ffc06effc0ee4410.png",
-    "static/media/4.jpg": "/lordon_js/static/media/4.ec947b3ac841f8d25fbd.jpg",
     "static/media/usa.png": "/lordon_js/static/media/usa.7e6b021ca79f2eba884c.png",
-    "static/media/vision.png": "/lordon_js/static/media/vision.8ebfb3b9959408f7ffd3.png",
+    "static/media/3.jpg": "/lordon_js/static/media/3.daeee065d8fdd0cdc9c7.jpg",
     "static/media/instagram.png": "/lordon_js/static/media/instagram.e2cb0503234d56776d16.png",
     "static/media/fontawesome-webfont.eot": "/lordon_js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/español.png": "/lordon_js/static/media/español.fdd2552f9b324d31e2b7.png",
-    "static/media/mision.png": "/lordon_js/static/media/mision.b4331bc1fce4c82bacc6.png",
     "static/media/quesomos.png": "/lordon_js/static/media/quesomos.60bb9e04d52bf36c01f4.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -48,7 +49,6 @@
     "static/media/51.jpg": "/lordon_js/static/media/51.daeee065d8fdd0cdc9c7.jpg",
     "static/media/52.jpg": "/lordon_js/static/media/52.daeee065d8fdd0cdc9c7.jpg",
     "static/media/8.jpg": "/lordon_js/static/media/8.b212a9c116298e13f286.jpg",
-    "static/media/6.jpg": "/lordon_js/static/media/6.b212a9c116298e13f286.jpg",
     "static/media/7.jpg": "/lordon_js/static/media/7.b212a9c116298e13f286.jpg",
     "static/media/30.jpg": "/lordon_js/static/media/30.df6940e949699b97c155.jpg",
     "static/media/38.jpg": "/lordon_js/static/media/38.6488439277093f95dc6c.jpg",
@@ -84,12 +84,12 @@
     "static/media/slick.ttf": "/lordon_js/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lordon_js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lordon_js/index.html",
-    "main.8b58236f.css.map": "/lordon_js/static/css/main.8b58236f.css.map",
-    "main.539f6b41.js.map": "/lordon_js/static/js/main.539f6b41.js.map",
+    "main.3ed0712e.css.map": "/lordon_js/static/css/main.3ed0712e.css.map",
+    "main.b5b1f0e3.js.map": "/lordon_js/static/js/main.b5b1f0e3.js.map",
     "193.32bb2404.chunk.js.map": "/lordon_js/static/js/193.32bb2404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b58236f.css",
-    "static/js/main.539f6b41.js"
+    "static/css/main.3ed0712e.css",
+    "static/js/main.b5b1f0e3.js"
   ]
 }

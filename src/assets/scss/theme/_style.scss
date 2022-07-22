@@ -128,6 +128,13 @@ h4 {
   line-height: 1;
 }
 
+.h4-search {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
 h5 {
   font-size: 16px;
   font-weight: 400;
@@ -2744,7 +2751,7 @@ padding-top: 3rem;
 
 .navbar {
   background: #fff;;
-  height: 200px;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2753,7 +2760,7 @@ padding-top: 3rem;
 
 .navbar-logo {
   color: #000;
-  justify-self: start;
+  justify-self: center;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -2895,7 +2902,7 @@ padding-top: 3rem;
 .services-submenu {
   width: 10rem;
   position: absolute;
-  top: 67px;
+  top: 130px;
   list-style: none;
   text-align: start;
 }
@@ -14374,7 +14381,7 @@ table.top-0 {
    }
 
 .button-tp {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .button-tp-two {
@@ -16890,6 +16897,7 @@ table {
   text-align: start;
   margin-top: 5px;
   text-shadow: 2px 2px 2px rgb(136, 135, 135);
+  font-weight: 900;
 }
 
 .business-img-txt {
@@ -16930,8 +16938,9 @@ table {
 .business-img-txt-five {
   font-size: 20px;
   color: #fff;
-  margin-left: 117%;
+  margin-left: 118%;
   margin-top: -24%;
+  width: 100%;
   position: relative;
 
 }
