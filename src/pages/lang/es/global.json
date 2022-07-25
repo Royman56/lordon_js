@@ -25,7 +25,11 @@
         "businesst3": "Responsabilidad",
         "businesst4": "Trabajo en",
         "businesst44": "Equipo",
-        "businesst5": "Innovación"
+        "businesst5": "Innovación",
+        "parallax": "Productos Destacados",
+        "parallax1": "Cocina",
+        "parallax2": "Belleza",
+        "parallax3": "Climatización"
     },
 
     "view-category": {

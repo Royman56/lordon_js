@@ -7,7 +7,7 @@ const Parallax = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <Fragment>
-      <div className="d-none d-sm-none d-md-block">
+      <div className="display">
       <MasterParallaxBanner
         bg="parallax-banner1"
         parallaxClass="text-center p-left"

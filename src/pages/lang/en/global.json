@@ -25,7 +25,11 @@
         "businesst3": "Responsibility",
         "businesst4": "Teamwork",
         "businesst44": "",
-        "businesst5": "Innovation"
+        "businesst5": "Innovation",
+        "parallax": "Featured Products",
+        "parallax1": "Cookware",
+        "parallax2": "Skin Care",
+        "parallax3": "Conditioning"
     },
 
     "view-category": {

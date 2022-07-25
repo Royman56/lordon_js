@@ -65,6 +65,7 @@ const MasterFooter = ({
                       setCollapse(1);
                       setIsOpen(!isOpen);
                     }}
+                    className="h4-search"
                   >
                     {t("footer.footer0")}
                     <span className="according-menu"></span>
@@ -124,6 +125,7 @@ const MasterFooter = ({
                           setCollapse(3);
                         } else setIsOpen(true);
                       }}
+                      className="h4-search"
                     >
                       {t("footer.footer1")}
                       <span className="according-menu"></span>
@@ -175,6 +177,7 @@ const MasterFooter = ({
                           setCollapse(4);
                         } else setIsOpen(true);
                       }}
+                      className="h4-search"
                     >
                       {t("footer.footer2")}
                       <span className="according-menu"></span>
@@ -205,6 +208,7 @@ const MasterFooter = ({
                           setCollapse(4);
                         } else setIsOpen(true);
                       }}
+                      className="h4-search"
                     >
                       {t("footer.footer3")}
                       <span className="according-menu"></span>
