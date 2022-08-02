@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lordon_js/static/css/main.114a966c.css",
-    "main.js": "/lordon_js/static/js/main.13f6f388.js",
+    "main.css": "/lordon_js/static/css/main.dbc30ca7.css",
+    "main.js": "/lordon_js/static/js/main.ca58bc81.js",
     "static/js/193.32bb2404.chunk.js": "/lordon_js/static/js/193.32bb2404.chunk.js",
-    "static/media/1.jpg": "/lordon_js/static/media/1.2b1fc43780260d94b583.jpg",
+    "static/media/1.jpg": "/lordon_js/static/media/1.0d2dc2b8a09c5eccd589.jpg",
     "static/media/4.jpg": "/lordon_js/static/media/4.ec947b3ac841f8d25fbd.jpg",
     "static/media/6.jpg": "/lordon_js/static/media/6.ec947b3ac841f8d25fbd.jpg",
     "static/media/mision.png": "/lordon_js/static/media/mision.e08f15c3fdb4c0f5dc31.png",
     "static/media/vision.png": "/lordon_js/static/media/vision.fdfdf7edbe0e4a5a8fc7.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/lordon_js/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
-    "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
     "static/media/5.jpg": "/lordon_js/static/media/5.ec947b3ac841f8d25fbd.jpg",
+    "static/media/2.jpg": "/lordon_js/static/media/2.daeee065d8fdd0cdc9c7.jpg",
     "static/media/17.png": "/lordon_js/static/media/17.9294ffc06effc0ee4410.png",
     "static/media/usa.png": "/lordon_js/static/media/usa.7e6b021ca79f2eba884c.png",
     "static/media/3.jpg": "/lordon_js/static/media/3.daeee065d8fdd0cdc9c7.jpg",
@@ -84,12 +84,12 @@
     "static/media/slick.ttf": "/lordon_js/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lordon_js/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lordon_js/index.html",
-    "main.114a966c.css.map": "/lordon_js/static/css/main.114a966c.css.map",
-    "main.13f6f388.js.map": "/lordon_js/static/js/main.13f6f388.js.map",
+    "main.dbc30ca7.css.map": "/lordon_js/static/css/main.dbc30ca7.css.map",
+    "main.ca58bc81.js.map": "/lordon_js/static/js/main.ca58bc81.js.map",
     "193.32bb2404.chunk.js.map": "/lordon_js/static/js/193.32bb2404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.114a966c.css",
-    "static/js/main.13f6f388.js"
+    "static/css/main.dbc30ca7.css",
+    "static/js/main.ca58bc81.js"
   ]
 }
