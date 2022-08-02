@@ -61,6 +61,7 @@ const MasterFooter = ({
                     } footer-mobile-title`}
                 >
                   <div className="sub-title">
+                  <Link to='/business/'>
                   <h4
                     onClick={() => {
                       setCollapse(1);
@@ -71,6 +72,7 @@ const MasterFooter = ({
                     {t("footer.footer0")}
                     <span className="according-menu"></span>
                   </h4>
+                  </Link>
                   </div>
                 </div>
                 <Collapse
