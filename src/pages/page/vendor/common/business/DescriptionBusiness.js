@@ -141,6 +141,8 @@ const DescriptionBusiness = ({ sectionClass, title, inner, hrClass }) => {
                                 <h4 className="business-img-txt-five">{t("header-one.businesst4")}<br/>{t("header-one.businesst44")}</h4>
                                 <h4 className="business-img-txt-six">{t("header-one.businesst5")}</h4>
                             </div>
+                            <br></br>
+                            <br></br>
 
                         </Col>
                     </Row>

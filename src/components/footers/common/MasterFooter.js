@@ -60,6 +60,7 @@ const MasterFooter = ({
                   className={`footer-title ${isOpen && collapse == 1 ? "active" : ""
                     } footer-mobile-title`}
                 >
+                  <div className="sub-title">
                   <h4
                     onClick={() => {
                       setCollapse(1);
@@ -70,6 +71,7 @@ const MasterFooter = ({
                     {t("footer.footer0")}
                     <span className="according-menu"></span>
                   </h4>
+                  </div>
                 </div>
                 <Collapse
                   isOpen={width ? (collapse === 1 ? isOpen : false) : true}

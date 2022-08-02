@@ -88,7 +88,7 @@ const DetailProduct = (props) => {
 
   }
   return (
-    <CommonLayout parent={t("view-category.category9")} title={product.name_product}>
+    <CommonLayout parent={t("view-category.category8")} title={t("view-category.category9")}>
       <>
         <div className="collection-wrapper">
           <Container>
@@ -123,7 +123,7 @@ const DetailProduct = (props) => {
                     </Col>
                     <Col lg="6" className="rtl-text">
                       <div className={`product-right`}>
-                        <h2> {product.name_product} </h2>
+                        <h3> {product.name_product} </h3>
                         <h4>
                           <del>
                             {product.discount_price}
@@ -138,8 +138,8 @@ const DetailProduct = (props) => {
 
 
                         <div className="border-product">
-                          <h3 className="product-title">{t("business.business12")}</h3>
-                          <h3>{product.meta_description}</h3>
+                          <h3>{t("business.business12")}</h3>
+                          <h4 className="h4-search">{product.meta_description}</h4>
                         </div>
 
                         <div className="border-product">
@@ -175,7 +175,7 @@ const DetailProduct = (props) => {
                           <TabContent activeTab={activeTab} className="nav-material">
                             <TabPane tabId="1">
                               <br></br>
-                                  <h4 className="space-btm">
+                                  <h4 className="h4-search">
 
                                     {product.description_product}
 
@@ -184,6 +184,8 @@ const DetailProduct = (props) => {
                             </TabPane>
 
                           </TabContent>
+                          <br></br>
+                          <br></br>
                         </Row>
                       </Col>
                     </Row>
