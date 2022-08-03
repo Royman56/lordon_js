@@ -85,7 +85,7 @@ const ViewProduct = (props) => {
                   <div className="blog-details">
                     <div style={{ color: '#000' }} onClick={ClickHandler}>
 
-                      <h3 className="h3-definity">{item.name_product}</h3>
+                      <h4 className="h4-search">{item.name_product}</h4>
                     </div>
 
                     <h5 className="text-product">

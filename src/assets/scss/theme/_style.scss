@@ -16889,6 +16889,13 @@ table {
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 349px) { 
+  .navbar-spacing{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+
 .text-banner {
   color: #f1293b;
 }
