@@ -32,7 +32,7 @@ const DescriptionContact = ({ sectionClass, title, inner, hrClass }) => {
             </Col>
           </Row>
           <form>
-         <iframe className="form" src="https://mrtips.formstack.com/forms/lordon_cws"></iframe>
+            {i18n.language === 'es' ? <iframe className="form" src="https://mrtips.formstack.com/forms/lordon_es"></iframe> : <iframe className="form" src="https://mrtips.formstack.com/forms/lordon_en"></iframe>}
             </form>   
   
 
